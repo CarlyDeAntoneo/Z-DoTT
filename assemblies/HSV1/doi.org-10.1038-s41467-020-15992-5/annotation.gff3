@@ -1,0 +1,636 @@
+##gff-version 3
+##sequence-region NC_001806.2 1 152222
+NC_001806.2	annotation	remark	1	152222	.	.	.	sequence-region=%28%27NC_001806.2%27%2C 0%2C 152222%29;species=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi%3Fid%3D10298
+NC_001806.2	tpg	region	1	152222	.	+	.	Dbxref=taxon:10298;ID=NC_001806.2:1..152222;gb-synonym=Herpes simplex virus 1;gbkey=Src;genome=genomic;mol_type=genomic DNA;nat-host=Homo sapiens;strain=17
+NC_001806.2	tpg	gene	409	5717	.	+	.	ID=gene-TRL1;Name=TRL1;gene=gene-TRL1
+NC_001806.2	tpg	mRNA	409	5717	.	+	.	ID=TRL1;Note=TRL1 RNA %28spliced%29;Parent=gene-TRL1;gbkey=mRNA;gene=gene-TRL1;product=TRL1;support=5
+NC_001806.2	tpg	exon	409	2318	.	+	.	ID=exon-TRL1-TRL2-1;Parent=TRL1;gbkey=mRNA;gene=gene-TRL1;product=TRL1
+NC_001806.2	tpg	exon	3084	3750	.	+	.	ID=exon-TRL1-TRL2-2;Parent=TRL1;gbkey=mRNA;gene=gene-TRL1;product=TRL1
+NC_001806.2	tpg	exon	3887	5717	.	+	.	ID=exon-TRL1-TRL2-3;Parent=TRL1;gbkey=mRNA;gene=gene-TRL1;product=TRL1
+NC_001806.2	tpg	gene	1751	5717	.	+	.	ID=gene-TRL1.5;Name=TRL1.5;gene=gene-TRL1.5
+NC_001806.2	tpg	mRNA	1751	5717	.	+	.	ID=TRL1.5;Note=TRL1.5 RNA %28spliced%29;Parent=gene-TRL1.5;gbkey=mRNA;gene=gene-TRL1.5;product=TRL1.5;support=5
+NC_001806.2	tpg	exon	1751	2318	.	+	.	ID=exon-TRL1-TRL2-2-1;Parent=TRL1.5;gbkey=mRNA;gene=gene-TRL1.5;product=TRL1.5
+NC_001806.2	tpg	exon	3084	3750	.	+	.	ID=exon-TRL1-TRL2-2-2;Parent=TRL1.5;gbkey=mRNA;gene=gene-TRL1.5;product=TRL1.5
+NC_001806.2	tpg	exon	3887	5717	.	+	.	ID=exon-TRL1-TRL2-2-3;Parent=TRL1.5;gbkey=mRNA;gene=gene-TRL1.5;product=TRL1.5
+NC_001806.2	tpg	gene	2118	5717	.	+	.	ID=gene-TRL2-iso1;Name=TRL2-iso1;gene=gene-TRL2-iso1
+NC_001806.2	tpg	mRNA	2118	5717	.	+	.	ID=TRL2-iso1;Note=TRL2 RNA iso1 %28with retained intron 1%29;Parent=gene-TRL2-iso1;gbkey=mRNA;gene=gene-TRL2-iso1;product=TRL2 iso1;support=7
+NC_001806.2	tpg	exon	2118	3750	.	+	.	ID=exon-TRL1-TRL2-3-1;Note=with retained intron 1;Parent=TRL2-iso1;gbkey=mRNA;gene=gene-TRL2-iso1;product=TRL2 iso1
+NC_001806.2	tpg	exon	3887	5717	.	+	.	ID=exon-TRL1-TRL2-3-2;Note=with retained intron 1;Parent=TRL2-iso1;gbkey=mRNA;gene=gene-TRL2-iso1;product=TRL2 iso1
+NC_001806.2	tpg	gene	2118	5717	.	+	.	ID=gene-TRL2;Name=TRL2;gene=gene-TRL2
+NC_001806.2	tpg	mRNA	2118	5717	.	+	.	ID=TRL2;Note=TRL2 RNA %28spliced%29;Parent=gene-TRL2;gbkey=mRNA;gene=gene-TRL2;product=TRL2;support=7
+NC_001806.2	tpg	exon	2118	2318	.	+	.	ID=exon-TRL1-TRL2-4-1;Parent=TRL2;gbkey=mRNA;gene=gene-TRL2;product=TRL2
+NC_001806.2	tpg	exon	3084	3750	.	+	.	ID=exon-TRL1-TRL2-4-2;Parent=TRL2;gbkey=mRNA;gene=gene-TRL2;product=TRL2
+NC_001806.2	tpg	exon	3887	5717	.	+	.	ID=exon-TRL1-TRL2-4-3;Parent=TRL2;gbkey=mRNA;gene=gene-TRL2;product=TRL2
+NC_001806.2	tpg	gene	2118	5717	.	+	.	ID=gene-TRL2-iso2;Name=TRL2-iso2;gene=gene-TRL2-iso2
+NC_001806.2	tpg	mRNA	2118	5717	.	+	.	ID=TRL2-iso2;Note=TRL2 RNA iso2 %28NAGNAG%2C spliced%29;Parent=gene-TRL2-iso2;gbkey=mRNA;gene=gene-TRL2-iso2;product=TRL2 iso2;support=7
+NC_001806.2	tpg	exon	2118	2318	.	+	.	ID=exon-TRL1-TRL2-5-1;Note=NAGNAG;Parent=TRL2-iso2;gbkey=mRNA;gene=gene-TRL2-iso2;product=TRL2 iso2
+NC_001806.2	tpg	exon	3084	3750	.	+	.	ID=exon-TRL1-TRL2-5-2;Note=NAGNAG;Parent=TRL2-iso2;gbkey=mRNA;gene=gene-TRL2-iso2;product=TRL2 iso2
+NC_001806.2	tpg	exon	3890	5717	.	+	.	ID=exon-TRL1-TRL2-5-3;Note=NAGNAG;Parent=TRL2-iso2;gbkey=mRNA;gene=gene-TRL2-iso2;product=TRL2 iso2
+NC_001806.2	tpg	gene	8448	10970	.	+	.	ID=gene-TRL3;Name=TRL3;gene=gene-TRL3
+NC_001806.2	tpg	mRNA	8448	10970	.	+	.	ID=TRL3;Note=TRL3 RNA %28orphan%29;Parent=gene-TRL3;gbkey=mRNA;gene=gene-TRL3;product=TRL3;support=2
+NC_001806.2	tpg	exon	8448	10970	.	+	.	ID=exon-TRL3-UL3-1;Note=orphan;Parent=TRL3;gbkey=mRNA;gene=gene-TRL3;product=TRL3
+NC_001806.2	tpg	gene	9246	10970	.	+	.	ID=gene-UL1;Name=UL1;gene=gene-UL1
+NC_001806.2	tpg	mRNA	9246	10970	.	+	.	ID=UL1;Note=UL1 RNA;Parent=gene-UL1;gbkey=mRNA;gene=gene-UL1;product=UL1;support=8
+NC_001806.2	tpg	exon	9246	10970	.	+	.	ID=exon-TRL3-UL3-2-1;Parent=UL1;gbkey=mRNA;gene=gene-UL1;product=UL1
+NC_001806.2	tpg	gene	9740	10970	.	+	.	ID=gene-UL2;Name=UL2;gene=gene-UL2
+NC_001806.2	tpg	mRNA	9740	10970	.	+	.	ID=UL2;Note=UL2 RNA;Parent=gene-UL2;gbkey=mRNA;gene=gene-UL2;product=UL2;support=8
+NC_001806.2	tpg	exon	9740	10970	.	+	.	ID=exon-TRL3-UL3-3-1;Parent=UL2;gbkey=mRNA;gene=gene-UL2;product=UL2
+NC_001806.2	tpg	gene	10737	11737	.	+	.	ID=gene-UL3-%2A1;Name=UL3-%2A1;gene=gene-UL3-%2A1
+NC_001806.2	tpg	mRNA	10737	11737	.	+	.	ID=UL3-%2A1;Note=UL3 RNA %2A1 %28PacBio%3B read-through transcript%29;Parent=gene-UL3-%2A1;gbkey=mRNA;gene=gene-UL3-%2A1;product=UL3 %2A1;support=2
+NC_001806.2	tpg	exon	10737	11737	.	+	.	ID=exon-TRL3-UL3-4-1;Note=read-through transcript;Parent=UL3-%2A1;gbkey=mRNA;gene=gene-UL3-%2A1;product=UL3 %2A1
+NC_001806.2	tpg	gene	10975	11737	.	+	.	ID=gene-UL3;Name=UL3;gene=gene-UL3
+NC_001806.2	tpg	mRNA	10975	11737	.	+	.	ID=UL3;Note=UL3 RNA;Parent=gene-UL3;gbkey=mRNA;gene=gene-UL3;product=UL3;support=5
+NC_001806.2	tpg	exon	10975	11737	.	+	.	ID=exon-TRL3-UL3-5-1;Parent=UL3;gbkey=mRNA;gene=gene-UL3;product=UL3
+NC_001806.2	tpg	gene	11544	11737	.	+	.	ID=gene-UL3-%231;Name=UL3-%231;gene=gene-UL3-%231
+NC_001806.2	tpg	mRNA	11544	11737	.	+	.	ID=UL3-%231;Note=UL3 RNA %231 %28orphan%29 %5BPeak in both dRNA-seq replicates. Accumulation of reads within %2B/-5 nt of the TiSS in both cRNA-seq replicates.%5D;Parent=gene-UL3-%231;gbkey=mRNA;gene=gene-UL3-%231;product=UL3 %231;support=1
+NC_001806.2	tpg	exon	11544	11737	.	+	.	ID=exon-TRL3-UL3-6-1;Note=orphan;Parent=UL3-%231;gbkey=mRNA;gene=gene-UL3-%231;product=UL3 %231
+NC_001806.2	tpg	gene	11785	18070	.	+	.	ID=gene-UL4.5-%2A1;Name=UL4.5-%2A1;gene=gene-UL4.5-%2A1
+NC_001806.2	tpg	mRNA	11785	18070	.	+	.	ID=UL4.5-%2A1;Note=UL4.5 RNA %2A1 %5BStrong peak in both dRNA-seq replicates as well as in one of the two cRNA-seq replicates. Increase in downstream read-coverage in both cRNA-seq replicates.%5D;Parent=gene-UL4.5-%2A1;gbkey=mRNA;gene=gene-UL4.5-%2A1;product=UL4.5 %2A1;support=1
+NC_001806.2	tpg	exon	11785	18070	.	+	.	ID=exon-UL4.5-UL7-1;Parent=UL4.5-%2A1;gbkey=mRNA;gene=gene-UL4.5-%2A1;product=UL4.5 %2A1
+NC_001806.2	tpg	gene	12211	18070	.	+	.	ID=gene-UL4.5;Name=UL4.5;gene=gene-UL4.5
+NC_001806.2	tpg	mRNA	12211	18070	.	+	.	ID=UL4.5;Note=UL4.5 RNA %28spliced%29;Parent=gene-UL4.5;gbkey=mRNA;gene=gene-UL4.5;product=UL4.5;support=2
+NC_001806.2	tpg	exon	12211	12429	.	+	.	ID=exon-UL4.5-UL7-3-1;Note=spliced;Parent=UL4.5;gbkey=mRNA;gene=gene-UL4.5;product=UL4.5
+NC_001806.2	tpg	exon	12973	18070	.	+	.	ID=exon-UL4.5-UL7-3-2;Note=spliced;Parent=UL4.5;gbkey=mRNA;gene=gene-UL4.5;product=UL4.5
+NC_001806.2	tpg	gene	12211	18070	.	+	.	ID=gene-UL4.5-iso1;Name=UL4.5-iso1;gene=gene-UL4.5-iso1
+NC_001806.2	tpg	mRNA	12211	18070	.	+	.	ID=UL4.5-iso1;Note=UL4.5 RNA iso1 %28with retained intron%29;Parent=gene-UL4.5-iso1;gbkey=mRNA;gene=gene-UL4.5-iso1;product=UL4.5 iso1;support=2
+NC_001806.2	tpg	exon	12211	18070	.	+	.	ID=exon-UL4.5-UL7-2-1;Note=includes retained intron;Parent=UL4.5-iso1;gbkey=mRNA;gene=gene-UL4.5-iso1;product=UL4.5 iso1
+NC_001806.2	tpg	gene	13391	18070	.	+	.	ID=gene-UL5.5;Name=UL5.5;gene=gene-UL5.5
+NC_001806.2	tpg	mRNA	13391	18070	.	+	.	ID=UL5.5;Note=UL5.5 RNA;Parent=gene-UL5.5;gbkey=mRNA;gene=gene-UL5.5;product=UL5.5;support=2
+NC_001806.2	tpg	exon	13391	18070	.	+	.	ID=exon-UL4.5-UL7-4-1;Parent=UL5.5;gbkey=mRNA;gene=gene-UL5.5;product=UL5.5
+NC_001806.2	tpg	gene	13509	18070	.	+	.	ID=gene-UL5.5-%231;Name=UL5.5-%231;gene=gene-UL5.5-%231
+NC_001806.2	tpg	mRNA	13509	18070	.	+	.	ID=UL5.5-%231;Note=UL5.5 RNA %231;Parent=gene-UL5.5-%231;gbkey=mRNA;gene=gene-UL5.5-%231;product=UL5.5 %231;support=3
+NC_001806.2	tpg	exon	13509	18070	.	+	.	ID=exon-UL4.5-UL7-5-1;Parent=UL5.5-%231;gbkey=mRNA;gene=gene-UL5.5-%231;product=UL5.5 %231
+NC_001806.2	tpg	gene	14013	18070	.	+	.	ID=gene-UL5.6;Name=UL5.6;gene=gene-UL5.6
+NC_001806.2	tpg	mRNA	14013	18070	.	+	.	ID=UL5.6;Note=UL5.6 RNA;Parent=gene-UL5.6;gbkey=mRNA;gene=gene-UL5.6;product=UL5.6;support=2
+NC_001806.2	tpg	exon	14013	18070	.	+	.	ID=exon-UL4.5-UL7-6-1;Parent=UL5.6;gbkey=mRNA;gene=gene-UL5.6;product=UL5.6
+NC_001806.2	tpg	gene	14577	18070	.	+	.	ID=gene-UL5.7;Name=UL5.7;gene=gene-UL5.7
+NC_001806.2	tpg	mRNA	14577	18070	.	+	.	ID=UL5.7;Note=UL5.7 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL5.7 ORF.%5D;Parent=gene-UL5.7;gbkey=mRNA;gene=gene-UL5.7;product=UL5.7;support=1
+NC_001806.2	tpg	exon	14577	18070	.	+	.	ID=exon-UL4.5-UL7-7-1;Parent=UL5.7;gbkey=mRNA;gene=gene-UL5.7;product=UL5.7
+NC_001806.2	tpg	gene	14930	18070	.	+	.	ID=gene-UL6-%2A2;Name=UL6-%2A2;gene=gene-UL6-%2A2
+NC_001806.2	tpg	mRNA	14930	18070	.	+	.	ID=UL6-%2A2;Note=UL6 RNA %2A2;Parent=gene-UL6-%2A2;gbkey=mRNA;gene=gene-UL6-%2A2;product=UL6 %2A2;support=3
+NC_001806.2	tpg	exon	14930	18070	.	+	.	ID=exon-UL4.5-UL7-8-1;Parent=UL6-%2A2;gbkey=mRNA;gene=gene-UL6-%2A2;product=UL6 %2A2
+NC_001806.2	tpg	gene	15014	18070	.	+	.	ID=gene-UL6-%2A1;Name=UL6-%2A1;gene=gene-UL6-%2A1
+NC_001806.2	tpg	mRNA	15014	18070	.	+	.	ID=UL6-%2A1;Note=UL6 RNA %2A1;Parent=gene-UL6-%2A1;gbkey=mRNA;gene=gene-UL6-%2A1;product=UL6 %2A1;support=2
+NC_001806.2	tpg	exon	15014	18070	.	+	.	ID=exon-UL4.5-UL7-9-1;Parent=UL6-%2A1;gbkey=mRNA;gene=gene-UL6-%2A1;product=UL6 %2A1
+NC_001806.2	tpg	gene	15052	18070	.	+	.	ID=gene-UL6;Name=UL6;gene=gene-UL6
+NC_001806.2	tpg	mRNA	15052	18070	.	+	.	ID=UL6;Note=UL6 RNA;Parent=gene-UL6;gbkey=mRNA;gene=gene-UL6;product=UL6;support=4
+NC_001806.2	tpg	exon	15052	18070	.	+	.	ID=exon-UL4.5-UL7-10-1;Parent=UL6;gbkey=mRNA;gene=gene-UL6;product=UL6
+NC_001806.2	tpg	gene	15748	18070	.	+	.	ID=gene-UL6-%231;Name=UL6-%231;gene=gene-UL6-%231
+NC_001806.2	tpg	mRNA	15748	18070	.	+	.	ID=UL6-%231;Note=UL6 RNA %231 %28encodes UL6 iORF%29 %5BStrong peak in both dRNA-seq replicates. Required for expression of UL6 iORF.%5D;Parent=gene-UL6-%231;gbkey=mRNA;gene=gene-UL6-%231;product=UL6 %231;support=1
+NC_001806.2	tpg	exon	15748	18070	.	+	.	ID=exon-UL4.5-UL7-11-1;Note=encodes UL6 iORF;Parent=UL6-%231;gbkey=mRNA;gene=gene-UL6-%231;product=UL6 %231
+NC_001806.2	tpg	gene	15851	18070	.	+	.	ID=gene-UL6-%232;Name=UL6-%232;gene=gene-UL6-%232
+NC_001806.2	tpg	mRNA	15851	18070	.	+	.	ID=UL6-%232;Note=UL6 RNA %232 %28encodes UL6 iORF%29;Parent=gene-UL6-%232;gbkey=mRNA;gene=gene-UL6-%232;product=UL6 %232;support=2
+NC_001806.2	tpg	exon	15851	18070	.	+	.	ID=exon-UL4.5-UL7-12-1;Note=encodes UL6 iORF;Parent=UL6-%232;gbkey=mRNA;gene=gene-UL6-%232;product=UL6 %232
+NC_001806.2	tpg	gene	16434	18070	.	+	.	ID=gene-UL7-%2A1;Name=UL7-%2A1;gene=gene-UL7-%2A1
+NC_001806.2	tpg	mRNA	16434	18070	.	+	.	ID=UL7-%2A1;Note=UL7 RNA %2A1 %28PacBio only%3B orphan%29 %5BMultiple PacBio reads starting at the same position accompanied by a weak increase in read densities in the 4sU-seq data.%5D;Parent=gene-UL7-%2A1;gbkey=mRNA;gene=gene-UL7-%2A1;product=UL7 %2A1;support=1
+NC_001806.2	tpg	exon	16434	18070	.	+	.	ID=exon-UL4.5-UL7-13-1;Note=orphan;Parent=UL7-%2A1;gbkey=mRNA;gene=gene-UL7-%2A1;product=UL7 %2A1
+NC_001806.2	tpg	gene	16957	18070	.	+	.	ID=gene-UL7;Name=UL7;gene=gene-UL7
+NC_001806.2	tpg	mRNA	16957	18070	.	+	.	ID=UL7;Note=UL7 RNA;Parent=gene-UL7;gbkey=mRNA;gene=gene-UL7;product=UL7;support=8
+NC_001806.2	tpg	exon	16957	18070	.	+	.	ID=exon-UL4.5-UL7-14-1;Parent=UL7;gbkey=mRNA;gene=gene-UL7;product=UL7
+NC_001806.2	tpg	gene	18402	24668	.	+	.	ID=gene-UL7.5;Name=UL7.5;gene=gene-UL7.5
+NC_001806.2	tpg	mRNA	18402	24668	.	+	.	ID=UL7.5;Note=UL7.5 RNA %5BWeak peak in both cRNA-samples. Required for expression of UL7.5 uORF and UL7.5 ORF%5D;Parent=gene-UL7.5;gbkey=mRNA;gene=gene-UL7.5;product=UL7.5;support=1
+NC_001806.2	tpg	exon	18402	24668	.	+	.	ID=exon-UL7.5-UL10-1;Parent=UL7.5;gbkey=mRNA;gene=gene-UL7.5;product=UL7.5
+NC_001806.2	tpg	gene	20438	24668	.	+	.	ID=gene-UL8.4;Name=UL8.4;gene=gene-UL8.4
+NC_001806.2	tpg	mRNA	20438	24668	.	+	.	ID=UL8.4;Note=UL8.4 RNA;Parent=gene-UL8.4;gbkey=mRNA;gene=gene-UL8.4;product=UL8.4;support=2
+NC_001806.2	tpg	exon	20438	24668	.	+	.	ID=exon-UL7.5-UL10-2-1;Parent=UL8.4;gbkey=mRNA;gene=gene-UL8.4;product=UL8.4
+NC_001806.2	tpg	gene	22944	24668	.	+	.	ID=gene-UL10;Name=UL10;gene=gene-UL10
+NC_001806.2	tpg	mRNA	22944	24668	.	+	.	ID=UL10;Note=UL10 RNA;Parent=gene-UL10;gbkey=mRNA;gene=gene-UL10;product=UL10;support=7
+NC_001806.2	tpg	exon	22944	24668	.	+	.	ID=exon-UL7.5-UL10-3-1;Parent=UL10;gbkey=mRNA;gene=gene-UL10;product=UL10
+NC_001806.2	tpg	gene	23030	24668	.	+	.	ID=gene-UL10-%231;Name=UL10-%231;gene=gene-UL10-%231
+NC_001806.2	tpg	mRNA	23030	24668	.	+	.	ID=UL10-%231;Note=UL10 RNA %231;Parent=gene-UL10-%231;gbkey=mRNA;gene=gene-UL10-%231;product=UL10 %231;support=6
+NC_001806.2	tpg	exon	23030	24668	.	+	.	ID=exon-UL7.5-UL10-4-1;Parent=UL10-%231;gbkey=mRNA;gene=gene-UL10-%231;product=UL10 %231
+NC_001806.2	tpg	gene	27044	34850	.	+	.	ID=gene-UL13.5;Name=UL13.5;gene=gene-UL13.5
+NC_001806.2	tpg	mRNA	27044	34850	.	+	.	ID=UL13.5;Note=UL13.5 RNA %5BStrong peak in one cRNA-seq replicate and weak peak in the other cRNA-seq and both dRNA-seq replicates. Required for expression of UL13.5 ORF.%5D;Parent=gene-UL13.5;gbkey=mRNA;gene=gene-UL13.5;product=UL13.5;support=1
+NC_001806.2	tpg	exon	27044	34850	.	+	.	ID=exon-UL13.5-UL15-1;Parent=UL13.5;gbkey=mRNA;gene=gene-UL13.5;product=UL13.5
+NC_001806.2	tpg	gene	28802	34850	.	+	.	ID=gene-UL15-iso1;Name=UL15-iso1;gene=gene-UL15-iso1
+NC_001806.2	tpg	mRNA	28802	34850	.	+	.	ID=UL15-iso1;Note=UL15 RNA iso1 %28with retained intron 1%29;Parent=gene-UL15-iso1;gbkey=mRNA;gene=gene-UL15-iso1;product=UL15 iso1;support=6
+NC_001806.2	tpg	exon	28802	34850	.	+	.	ID=exon-UL13.5-UL15-2-1;Note=includes retained intron 1;Parent=UL15-iso1;gbkey=mRNA;gene=gene-UL15-iso1;product=UL15 iso1
+NC_001806.2	tpg	gene	28802	34850	.	+	.	ID=gene-UL15;Name=UL15;gene=gene-UL15
+NC_001806.2	tpg	mRNA	28802	34850	.	+	.	ID=UL15;Note=UL15 RNA %28spliced%29;Parent=gene-UL15;gbkey=mRNA;gene=gene-UL15;product=UL15;support=6
+NC_001806.2	tpg	exon	28802	30049	.	+	.	ID=exon-UL13.5-UL15-3-1;Note=spliced;Parent=UL15;gbkey=mRNA;gene=gene-UL15;product=UL15
+NC_001806.2	tpg	exon	33636	34850	.	+	.	ID=exon-UL13.5-UL15-3-2;Note=spliced;Parent=UL15;gbkey=mRNA;gene=gene-UL15;product=UL15
+NC_001806.2	tpg	gene	39646	43713	.	+	.	ID=gene-UL19.5;Name=UL19.5;gene=gene-UL19.5
+NC_001806.2	tpg	mRNA	39646	43713	.	+	.	ID=UL19.5;Note=UL19.5 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL19.5 sORF.%5D;Parent=gene-UL19.5;gbkey=mRNA;gene=gene-UL19.5;product=UL19.5;support=1
+NC_001806.2	tpg	exon	39646	43713	.	+	.	ID=exon-UL19.5-UL21-1;Parent=UL19.5;gbkey=mRNA;gene=gene-UL19.5;product=UL19.5
+NC_001806.2	tpg	gene	40823	43713	.	+	.	ID=gene-UL20.4;Name=UL20.4;gene=gene-UL20.4
+NC_001806.2	tpg	mRNA	40823	43713	.	+	.	ID=UL20.4;Note=UL20.4 RNA;Parent=gene-UL20.4;gbkey=mRNA;gene=gene-UL20.4;product=UL20.4;support=3
+NC_001806.2	tpg	exon	40823	43713	.	+	.	ID=exon-UL19.5-UL21-2-1;Parent=UL20.4;gbkey=mRNA;gene=gene-UL20.4;product=UL20.4
+NC_001806.2	tpg	gene	41863	43713	.	+	.	ID=gene-UL21;Name=UL21;gene=gene-UL21
+NC_001806.2	tpg	mRNA	41863	43713	.	+	.	ID=UL21;Note=UL21 RNA %28encodes N-terminal extension of UL21%29;Parent=gene-UL21;gbkey=mRNA;gene=gene-UL21;product=UL21;support=7
+NC_001806.2	tpg	exon	41863	43713	.	+	.	ID=exon-UL19.5-UL21-3-1;Note=encodes N-terminal extension of UL21;Parent=UL21;gbkey=mRNA;gene=gene-UL21;product=UL21
+NC_001806.2	tpg	gene	41992	43713	.	+	.	ID=gene-UL21-%231;Name=UL21-%231;gene=gene-UL21-%231
+NC_001806.2	tpg	mRNA	41992	43713	.	+	.	ID=UL21-%231;Note=UL21 RNA %231 %28does not encode N-terminal extension of UL21%29;Parent=gene-UL21-%231;gbkey=mRNA;gene=gene-UL21-%231;product=UL21 %231;support=2
+NC_001806.2	tpg	exon	41992	43713	.	+	.	ID=exon-UL19.5-UL21-4-1;Note=does not encode N-terminal extension of UL21;Parent=UL21-%231;gbkey=mRNA;gene=gene-UL21-%231;product=UL21 %231
+NC_001806.2	tpg	gene	43940	48769	.	+	.	ID=gene-UL22.5;Name=UL22.5;gene=gene-UL22.5
+NC_001806.2	tpg	mRNA	43940	48769	.	+	.	ID=UL22.5;Note=UL22.5 RNA;Parent=gene-UL22.5;gbkey=mRNA;gene=gene-UL22.5;product=UL22.5;support=2
+NC_001806.2	tpg	exon	43940	48769	.	+	.	ID=exon-UL22.5-UL26.5-1;Parent=UL22.5;gbkey=mRNA;gene=gene-UL22.5;product=UL22.5
+NC_001806.2	tpg	gene	46607	48769	.	+	.	ID=gene-UL23.5;Name=UL23.5;gene=gene-UL23.5
+NC_001806.2	tpg	mRNA	46607	48769	.	+	.	ID=UL23.5;Note=UL23.5 RNA;Parent=gene-UL23.5;gbkey=mRNA;gene=gene-UL23.5;product=UL23.5;support=2
+NC_001806.2	tpg	exon	46607	48769	.	+	.	ID=exon-UL22.5-UL26.5-2-1;Parent=UL23.5;gbkey=mRNA;gene=gene-UL23.5;product=UL23.5
+NC_001806.2	tpg	gene	47408	48769	.	+	.	ID=gene-UL24-%2A1;Name=UL24-%2A1;gene=gene-UL24-%2A1
+NC_001806.2	tpg	mRNA	47408	48769	.	+	.	ID=UL24-%2A1;Note=UL24 RNA %2A1;Parent=gene-UL24-%2A1;gbkey=mRNA;gene=gene-UL24-%2A1;product=UL24 %2A1;support=7
+NC_001806.2	tpg	exon	47408	48769	.	+	.	ID=exon-UL22.5-UL26.5-3-1;Parent=UL24-%2A1;gbkey=mRNA;gene=gene-UL24-%2A1;product=UL24 %2A1
+NC_001806.2	tpg	gene	47672	48769	.	+	.	ID=gene-UL24;Name=UL24;gene=gene-UL24
+NC_001806.2	tpg	mRNA	47672	48769	.	+	.	ID=UL24;Note=UL24 RNA;Parent=gene-UL24;gbkey=mRNA;gene=gene-UL24;product=UL24;support=4
+NC_001806.2	tpg	exon	47672	48769	.	+	.	ID=exon-UL22.5-UL26.5-4-1;Parent=UL24;gbkey=mRNA;gene=gene-UL24;product=UL24
+NC_001806.2	tpg	gene	48074	48769	.	+	.	ID=gene-UL24.5;Name=UL24.5;gene=gene-UL24.5
+NC_001806.2	tpg	mRNA	48074	48769	.	+	.	ID=UL24.5;Note=UL24.5 RNA;Parent=gene-UL24.5;gbkey=mRNA;gene=gene-UL24.5;product=UL24.5;support=6
+NC_001806.2	tpg	exon	48074	48769	.	+	.	ID=exon-UL22.5-UL26.5-5-1;Parent=UL24.5;gbkey=mRNA;gene=gene-UL24.5;product=UL24.5
+NC_001806.2	tpg	gene	48631	52794	.	+	.	ID=gene-UL25;Name=UL25;gene=gene-UL25
+NC_001806.2	tpg	mRNA	48631	52794	.	+	.	ID=UL25;Note=UL25 RNA %28read-through transcript%29;Parent=gene-UL25;gbkey=mRNA;gene=gene-UL25;product=UL25;support=6
+NC_001806.2	tpg	exon	48631	52794	.	+	.	ID=exon-UL22.5-UL26.5-6-1;Note=read-through transcript;Parent=UL25;gbkey=mRNA;gene=gene-UL25;product=UL25
+NC_001806.2	tpg	gene	50664	52794	.	+	.	ID=gene-UL26;Name=UL26;gene=gene-UL26
+NC_001806.2	tpg	mRNA	50664	52794	.	+	.	ID=UL26;Note=UL26 RNA;Parent=gene-UL26;gbkey=mRNA;gene=gene-UL26;product=UL26;support=5
+NC_001806.2	tpg	exon	50664	52794	.	+	.	ID=exon-UL22.5-UL26.5-7-1;Parent=UL26;gbkey=mRNA;gene=gene-UL26;product=UL26
+NC_001806.2	tpg	gene	51635	52794	.	+	.	ID=gene-UL26.5;Name=UL26.5;gene=gene-UL26.5
+NC_001806.2	tpg	mRNA	51635	52794	.	+	.	ID=UL26.5;Note=UL26.5 RNA;Parent=gene-UL26.5;gbkey=mRNA;gene=gene-UL26.5;product=UL26.5;support=7
+NC_001806.2	tpg	exon	51635	52794	.	+	.	ID=exon-UL22.5-UL26.5-8-1;Parent=UL26.5;gbkey=mRNA;gene=gene-UL26.5;product=UL26.5
+NC_001806.2	tpg	gene	54923	66583	.	+	.	ID=gene-UL27.5;Name=UL27.5;gene=gene-UL27.5
+NC_001806.2	tpg	mRNA	54923	66583	.	+	.	ID=UL27.5;Note=UL27.5 RNA;Parent=gene-UL27.5;gbkey=mRNA;gene=gene-UL27.5;product=UL27.5;support=3
+NC_001806.2	tpg	exon	54923	66583	.	+	.	ID=exon-UL27.5-UL30-1;Parent=UL27.5;gbkey=mRNA;gene=gene-UL27.5;product=UL27.5
+NC_001806.2	tpg	gene	56134	66583	.	+	.	ID=gene-UL27.6;Name=UL27.6;gene=gene-UL27.6
+NC_001806.2	tpg	mRNA	56134	66583	.	+	.	ID=UL27.6;Note=UL27.6 RNA;Parent=gene-UL27.6;gbkey=mRNA;gene=gene-UL27.6;product=UL27.6;support=3
+NC_001806.2	tpg	exon	56134	66583	.	+	.	ID=exon-UL27.5-UL30-2-1;Parent=UL27.6;gbkey=mRNA;gene=gene-UL27.6;product=UL27.6
+NC_001806.2	tpg	gene	57712	66583	.	+	.	ID=gene-UL28.4;Name=UL28.4;gene=gene-UL28.4
+NC_001806.2	tpg	mRNA	57712	66583	.	+	.	ID=UL28.4;Note=UL28.4 RNA;Parent=gene-UL28.4;gbkey=mRNA;gene=gene-UL28.4;product=UL28.4;support=3
+NC_001806.2	tpg	exon	57712	66583	.	+	.	ID=exon-UL27.5-UL30-3-1;Parent=UL28.4;gbkey=mRNA;gene=gene-UL28.4;product=UL28.4
+NC_001806.2	tpg	gene	62457	66583	.	+	.	ID=gene-UL30-%2A1;Name=UL30-%2A1;gene=gene-UL30-%2A1
+NC_001806.2	tpg	mRNA	62457	66583	.	+	.	ID=UL30-%2A1;Note=UL30 RNA %2A1 %28%3DOri-L RNA%29;Parent=gene-UL30-%2A1;gbkey=mRNA;gene=gene-UL30-%2A1;product=UL30 %2A1;support=2
+NC_001806.2	tpg	exon	62457	66583	.	+	.	ID=exon-UL27.5-UL30-4-1;Note=Ori-L RNA;Parent=UL30-%2A1;gbkey=mRNA;gene=gene-UL30-%2A1;product=UL30 %2A1
+NC_001806.2	tpg	gene	62605	66583	.	+	.	ID=gene-UL30;Name=UL30;gene=gene-UL30
+NC_001806.2	tpg	mRNA	62605	66583	.	+	.	ID=UL30;Note=UL30 RNA;Parent=gene-UL30;gbkey=mRNA;gene=gene-UL30;product=UL30;support=7
+NC_001806.2	tpg	exon	62605	66583	.	+	.	ID=exon-UL27.5-UL30-5-1;Parent=UL30;gbkey=mRNA;gene=gene-UL30;product=UL30
+NC_001806.2	tpg	gene	67064	70964	.	+	.	ID=gene-UL31.5-%2A1;Name=UL31.5-%2A1;gene=gene-UL31.5-%2A1
+NC_001806.2	tpg	mRNA	67064	70964	.	+	.	ID=UL31.5-%2A1;Note=UL31.5 RNA %2A1;Parent=gene-UL31.5-%2A1;gbkey=mRNA;gene=gene-UL31.5-%2A1;product=UL31.5 %2A1;support=2
+NC_001806.2	tpg	exon	67064	70964	.	+	.	ID=exon-UL31.5-UL35-1;Parent=UL31.5-%2A1;gbkey=mRNA;gene=gene-UL31.5-%2A1;product=UL31.5 %2A1
+NC_001806.2	tpg	gene	67481	70964	.	+	.	ID=gene-UL31.5;Name=UL31.5;gene=gene-UL31.5
+NC_001806.2	tpg	mRNA	67481	70964	.	+	.	ID=UL31.5;Note=UL31.5 RNA;Parent=gene-UL31.5;gbkey=mRNA;gene=gene-UL31.5;product=UL31.5;support=2
+NC_001806.2	tpg	exon	67481	70964	.	+	.	ID=exon-UL31.5-UL35-2-1;Parent=UL31.5;gbkey=mRNA;gene=gene-UL31.5;product=UL31.5
+NC_001806.2	tpg	gene	67769	70964	.	+	.	ID=gene-UL31.6;Name=UL31.6;gene=gene-UL31.6
+NC_001806.2	tpg	mRNA	67769	70964	.	+	.	ID=UL31.6;Note=UL31.6 RNA %5BPeak in one cRNA-seq replicate. Required for expression of UL31.6 ORF.%5D;Parent=gene-UL31.6;gbkey=mRNA;gene=gene-UL31.6;product=UL31.6;support=0
+NC_001806.2	tpg	exon	67769	70964	.	+	.	ID=exon-UL31.5-UL35-3-1;Parent=UL31.6;gbkey=mRNA;gene=gene-UL31.6;product=UL31.6
+NC_001806.2	tpg	gene	68145	70964	.	+	.	ID=gene-UL32.5;Name=UL32.5;gene=gene-UL32.5
+NC_001806.2	tpg	mRNA	68145	70964	.	+	.	ID=UL32.5;Note=UL32.5 RNA %5BWeak peak in both cRNA-seq replicates. Required for expression of UL32.5 uORF.%5D;Parent=gene-UL32.5;gbkey=mRNA;gene=gene-UL32.5;product=UL32.5;support=1
+NC_001806.2	tpg	exon	68145	70964	.	+	.	ID=exon-UL31.5-UL35-4-1;Parent=UL32.5;gbkey=mRNA;gene=gene-UL32.5;product=UL32.5
+NC_001806.2	tpg	gene	68622	70964	.	+	.	ID=gene-UL32.6;Name=UL32.6;gene=gene-UL32.6
+NC_001806.2	tpg	mRNA	68622	70964	.	+	.	ID=UL32.6;Note=UL32.6 RNA;Parent=gene-UL32.6;gbkey=mRNA;gene=gene-UL32.6;product=UL32.6;support=3
+NC_001806.2	tpg	exon	68622	70964	.	+	.	ID=exon-UL31.5-UL35-5-1;Parent=UL32.6;gbkey=mRNA;gene=gene-UL32.6;product=UL32.6
+NC_001806.2	tpg	gene	69065	70964	.	+	.	ID=gene-UL33;Name=UL33;gene=gene-UL33
+NC_001806.2	tpg	mRNA	69065	70964	.	+	.	ID=UL33;Note=UL33 RNA;Parent=gene-UL33;gbkey=mRNA;gene=gene-UL33;product=UL33;support=8
+NC_001806.2	tpg	exon	69065	70964	.	+	.	ID=exon-UL31.5-UL35-6-1;Parent=UL33;gbkey=mRNA;gene=gene-UL33;product=UL33
+NC_001806.2	tpg	gene	69442	70964	.	+	.	ID=gene-UL34;Name=UL34;gene=gene-UL34
+NC_001806.2	tpg	mRNA	69442	70964	.	+	.	ID=UL34;Note=UL34 RNA;Parent=gene-UL34;gbkey=mRNA;gene=gene-UL34;product=UL34;support=7
+NC_001806.2	tpg	exon	69442	70964	.	+	.	ID=exon-UL31.5-UL35-7-1;Parent=UL34;gbkey=mRNA;gene=gene-UL34;product=UL34
+NC_001806.2	tpg	gene	70489	70964	.	+	.	ID=gene-UL35;Name=UL35;gene=gene-UL35
+NC_001806.2	tpg	mRNA	70489	70964	.	+	.	ID=UL35;Note=UL35 RNA;Parent=gene-UL35;gbkey=mRNA;gene=gene-UL35;product=UL35;support=7
+NC_001806.2	tpg	exon	70489	70964	.	+	.	ID=exon-UL31.5-UL35-8-1;Parent=UL35;gbkey=mRNA;gene=gene-UL35;product=UL35
+NC_001806.2	tpg	gene	73208	86040	.	+	.	ID=gene-UL36.4;Name=UL36.4;gene=gene-UL36.4
+NC_001806.2	tpg	mRNA	73208	86040	.	+	.	ID=UL36.4;Note=UL36.4 RNA %5BStrong peak in one cRNA-seq replicate. Strong increase in coverage downstream of the TiSS in both cRNA-seq replicates. Required for expression of UL36.4 uORF.%5D;Parent=gene-UL36.4;gbkey=mRNA;gene=gene-UL36.4;product=UL36.4;support=1
+NC_001806.2	tpg	exon	73208	86040	.	+	.	ID=exon-UL36.4-UL38-1;Parent=UL36.4;gbkey=mRNA;gene=gene-UL36.4;product=UL36.4
+NC_001806.2	tpg	gene	74861	86040	.	+	.	ID=gene-UL36.5;Name=UL36.5;gene=gene-UL36.5
+NC_001806.2	tpg	mRNA	74861	86040	.	+	.	ID=UL36.5;Note=UL36.5 RNA;Parent=gene-UL36.5;gbkey=mRNA;gene=gene-UL36.5;product=UL36.5;support=2
+NC_001806.2	tpg	exon	74861	86040	.	+	.	ID=exon-UL36.4-UL38-2-1;Parent=UL36.5;gbkey=mRNA;gene=gene-UL36.5;product=UL36.5
+NC_001806.2	tpg	gene	79565	86040	.	+	.	ID=gene-UL36.6;Name=UL36.6;gene=gene-UL36.6
+NC_001806.2	tpg	mRNA	79565	86040	.	+	.	ID=UL36.6;Note=UL36.6 RNA %28may start further upstream at 79448 or 79373 according to PacBio%29 %5BStrong peak in both dRNA-seq replicates. Required for expression of UL36.6 uORF and UL36.6 ORF%5D;Parent=gene-UL36.6;gbkey=mRNA;gene=gene-UL36.6;product=UL36.6;support=1
+NC_001806.2	tpg	exon	79565	86040	.	+	.	ID=exon-UL36.4-UL38-3-1;Note=may start further upstream at 79448 or 79373 according to PacBio;Parent=UL36.6;gbkey=mRNA;gene=gene-UL36.6;product=UL36.6
+NC_001806.2	tpg	gene	79565	86040	.	+	.	ID=gene-UL36.6-iso1;Name=UL36.6-iso1;gene=gene-UL36.6-iso1
+NC_001806.2	tpg	mRNA	79565	86040	.	+	.	ID=UL36.6-iso1;Note=UL36.6 RNA iso1 %28spliced%29 %5BStrong peak in both dRNA-seq replicates. Required for expression of UL36.6 uORF and UL36.6 ORF%5D;Parent=gene-UL36.6-iso1;gbkey=mRNA;gene=gene-UL36.6-iso1;product=UL36.6 iso1;support=1
+NC_001806.2	tpg	exon	79565	79883	.	+	.	ID=exon-UL36.4-UL38-5-1;Note=spliced;Parent=UL36.6-iso1;gbkey=mRNA;gene=gene-UL36.6-iso1;product=UL36.6 iso1
+NC_001806.2	tpg	exon	80091	86040	.	+	.	ID=exon-UL36.4-UL38-5-2;Note=spliced;Parent=UL36.6-iso1;gbkey=mRNA;gene=gene-UL36.6-iso1;product=UL36.6 iso1
+NC_001806.2	tpg	gene	79565	86040	.	+	.	ID=gene-UL36.6-iso2;Name=UL36.6-iso2;gene=gene-UL36.6-iso2
+NC_001806.2	tpg	mRNA	79565	86040	.	+	.	ID=UL36.6-iso2;Note=UL36.6 RNA iso2 %28NAGNAG%2C spliced%29 %5BStrong peak in both dRNA-seq replicates. Required for expression of UL36.6 uORF and UL36.6 ORF%5D;Parent=gene-UL36.6-iso2;gbkey=mRNA;gene=gene-UL36.6-iso2;product=UL36.6 iso2;support=1
+NC_001806.2	tpg	exon	79565	79883	.	+	.	ID=exon-UL36.4-UL38-4-1;Note=NAGNAG%2C spliced;Parent=UL36.6-iso2;gbkey=mRNA;gene=gene-UL36.6-iso2;product=UL36.6 iso2
+NC_001806.2	tpg	exon	80088	86040	.	+	.	ID=exon-UL36.4-UL38-4-2;Note=NAGNAG%2C spliced;Parent=UL36.6-iso2;gbkey=mRNA;gene=gene-UL36.6-iso2;product=UL36.6 iso2
+NC_001806.2	tpg	gene	84394	86040	.	+	.	ID=gene-UL38;Name=UL38;gene=gene-UL38
+NC_001806.2	tpg	mRNA	84394	86040	.	+	.	ID=UL38;Note=UL38 RNA;Parent=gene-UL38;gbkey=mRNA;gene=gene-UL38;product=UL38;support=7
+NC_001806.2	tpg	exon	84394	86040	.	+	.	ID=exon-UL36.4-UL38-6-1;Parent=UL38;gbkey=mRNA;gene=gene-UL38;product=UL38
+NC_001806.2	tpg	gene	86217	91001	.	+	.	ID=gene-UL39;Name=UL39;gene=gene-UL39
+NC_001806.2	tpg	mRNA	86217	91001	.	+	.	ID=UL39;Note=UL39 RNA;Parent=gene-UL39;gbkey=mRNA;gene=gene-UL39;product=UL39;support=7
+NC_001806.2	tpg	exon	86217	91001	.	+	.	ID=exon-UL39-UL40-1;Parent=UL39;gbkey=mRNA;gene=gene-UL39;product=UL39
+NC_001806.2	tpg	gene	89774	91001	.	+	.	ID=gene-UL40;Name=UL40;gene=gene-UL40
+NC_001806.2	tpg	mRNA	89774	91001	.	+	.	ID=UL40;Note=UL40 RNA;Parent=gene-UL40;gbkey=mRNA;gene=gene-UL40;product=UL40;support=6
+NC_001806.2	tpg	exon	89774	91001	.	+	.	ID=exon-UL39-UL40-2-1;Parent=UL40;gbkey=mRNA;gene=gene-UL40;product=UL40
+NC_001806.2	tpg	gene	91012	94658	.	+	.	ID=gene-UL40.5-%2A1;Name=UL40.5-%2A1;gene=gene-UL40.5-%2A1
+NC_001806.2	tpg	mRNA	91012	94658	.	+	.	ID=UL40.5-%2A1;Note=UL40.5 RNA %2A1;Parent=gene-UL40.5-%2A1;gbkey=mRNA;gene=gene-UL40.5-%2A1;product=UL40.5 %2A1;support=3
+NC_001806.2	tpg	exon	91012	94658	.	+	.	ID=exon-UL40.5-UL42-1;Parent=UL40.5-%2A1;gbkey=mRNA;gene=gene-UL40.5-%2A1;product=UL40.5 %2A1
+NC_001806.2	tpg	gene	91012	94658	.	+	.	ID=gene-UL40.5-iso1;Name=UL40.5-iso1;gene=gene-UL40.5-iso1
+NC_001806.2	tpg	mRNA	91012	94658	.	+	.	ID=UL40.5-iso1;Note=UL40.5 RNA iso1 %28spliced%2C encodes UL40.5 iORF%29;Parent=gene-UL40.5-iso1;gbkey=mRNA;gene=gene-UL40.5-iso1;product=UL40.5 iso1;support=3
+NC_001806.2	tpg	exon	91012	91121	.	+	.	ID=exon-UL40.5-UL42-2-1;Note=spliced%2C encodes UL40.5 iORF;Parent=UL40.5-iso1;gbkey=mRNA;gene=gene-UL40.5-iso1;product=UL40.5 iso1
+NC_001806.2	tpg	exon	91413	91551	.	+	.	ID=exon-UL40.5-UL42-2-2;Note=spliced%2C encodes UL40.5 iORF;Parent=UL40.5-iso1;gbkey=mRNA;gene=gene-UL40.5-iso1;product=UL40.5 iso1
+NC_001806.2	tpg	exon	92535	94658	.	+	.	ID=exon-UL40.5-UL42-2-3;Note=spliced%2C encodes UL40.5 iORF;Parent=UL40.5-iso1;gbkey=mRNA;gene=gene-UL40.5-iso1;product=UL40.5 iso1
+NC_001806.2	tpg	gene	91077	94658	.	+	.	ID=gene-UL40.5;Name=UL40.5;gene=gene-UL40.5
+NC_001806.2	tpg	mRNA	91077	94658	.	+	.	ID=UL40.5;Note=UL40.5 RNA;Parent=gene-UL40.5;gbkey=mRNA;gene=gene-UL40.5;product=UL40.5;support=3
+NC_001806.2	tpg	exon	91077	94658	.	+	.	ID=exon-UL40.5-UL42-3-1;Parent=UL40.5;gbkey=mRNA;gene=gene-UL40.5;product=UL40.5
+NC_001806.2	tpg	gene	91297	94658	.	+	.	ID=gene-UL40.5-%231;Name=UL40.5-%231;gene=gene-UL40.5-%231
+NC_001806.2	tpg	mRNA	91297	94658	.	+	.	ID=UL40.5-%231;Note=UL40.5 RNA %231 %28encodes UL40.5 iORF%29;Parent=gene-UL40.5-%231;gbkey=mRNA;gene=gene-UL40.5-%231;product=UL40.5 %231;support=3
+NC_001806.2	tpg	exon	91297	94658	.	+	.	ID=exon-UL40.5-UL42-4-1;Note=encodes UL40.5 iORF;Parent=UL40.5-%231;gbkey=mRNA;gene=gene-UL40.5-%231;product=UL40.5 %231
+NC_001806.2	tpg	gene	91524	94658	.	+	.	ID=gene-UL40.6;Name=UL40.6;gene=gene-UL40.6
+NC_001806.2	tpg	mRNA	91524	94658	.	+	.	ID=UL40.6;Note=UL40.6 RNA;Parent=gene-UL40.6;gbkey=mRNA;gene=gene-UL40.6;product=UL40.6;support=3
+NC_001806.2	tpg	exon	91524	94658	.	+	.	ID=exon-UL40.5-UL42-5-1;Parent=UL40.6;gbkey=mRNA;gene=gene-UL40.6;product=UL40.6
+NC_001806.2	tpg	gene	91524	94658	.	+	.	ID=gene-UL40.6-iso1;Name=UL40.6-iso1;gene=gene-UL40.6-iso1
+NC_001806.2	tpg	mRNA	91524	94658	.	+	.	ID=UL40.6-iso1;Note=UL40.6 RNA iso1 %28spliced%2C encodes UL40.7 dORF%29;Parent=gene-UL40.6-iso1;gbkey=mRNA;gene=gene-UL40.6-iso1;product=UL40.6 iso1;support=3
+NC_001806.2	tpg	exon	91524	91551	.	+	.	ID=exon-UL40.5-UL42-6-1;Note=spliced%2C encodes UL40.7 dORF;Parent=UL40.6-iso1;gbkey=mRNA;gene=gene-UL40.6-iso1;product=UL40.6 iso1
+NC_001806.2	tpg	exon	92535	94658	.	+	.	ID=exon-UL40.5-UL42-6-2;Note=spliced%2C encodes UL40.7 dORF;Parent=UL40.6-iso1;gbkey=mRNA;gene=gene-UL40.6-iso1;product=UL40.6 iso1
+NC_001806.2	tpg	gene	91995	94658	.	+	.	ID=gene-UL40.7;Name=UL40.7;gene=gene-UL40.7
+NC_001806.2	tpg	mRNA	91995	94658	.	+	.	ID=UL40.7;Note=UL40.7 RNA;Parent=gene-UL40.7;gbkey=mRNA;gene=gene-UL40.7;product=UL40.7;support=3
+NC_001806.2	tpg	exon	91995	94658	.	+	.	ID=exon-UL40.5-UL42-7-1;Parent=UL40.7;gbkey=mRNA;gene=gene-UL40.7;product=UL40.7
+NC_001806.2	tpg	gene	92935	94658	.	+	.	ID=gene-UL42;Name=UL42;gene=gene-UL42
+NC_001806.2	tpg	mRNA	92935	94658	.	+	.	ID=UL42;Note=UL42 RNA;Parent=gene-UL42;gbkey=mRNA;gene=gene-UL42;product=UL42;support=8
+NC_001806.2	tpg	exon	92935	94658	.	+	.	ID=exon-UL40.5-UL42-8-1;Parent=UL42;gbkey=mRNA;gene=gene-UL42;product=UL42
+NC_001806.2	tpg	gene	94765	96086	.	+	.	ID=gene-UL43;Name=UL43;gene=gene-UL43
+NC_001806.2	tpg	mRNA	94765	96086	.	+	.	ID=UL43;Note=UL43 RNA;Parent=gene-UL43;gbkey=mRNA;gene=gene-UL43;product=UL43;support=3
+NC_001806.2	tpg	exon	94765	96086	.	+	.	ID=exon-UL43-1;Parent=UL43;gbkey=mRNA;gene=gene-UL43;product=UL43
+NC_001806.2	tpg	gene	96174	98705	.	+	.	ID=gene-UL44;Name=UL44;gene=gene-UL44
+NC_001806.2	tpg	mRNA	96174	98705	.	+	.	ID=UL44;Note=UL44 RNA;Parent=gene-UL44;gbkey=mRNA;gene=gene-UL44;product=UL44;support=5
+NC_001806.2	tpg	exon	96174	98705	.	+	.	ID=exon-UL44-UL45-1;Parent=UL44;gbkey=mRNA;gene=gene-UL44;product=UL44
+NC_001806.2	tpg	gene	96174	98705	.	+	.	ID=gene-UL44-iso1;Name=UL44-iso1;gene=gene-UL44-iso1
+NC_001806.2	tpg	mRNA	96174	98705	.	+	.	ID=UL44-iso1;Note=UL44 RNA iso1 %28spliced%29;Parent=gene-UL44-iso1;gbkey=mRNA;gene=gene-UL44-iso1;product=UL44 iso1;support=5
+NC_001806.2	tpg	exon	96174	97724	.	+	.	ID=exon-UL44-UL45-2-1;Note=spliced;Parent=UL44-iso1;gbkey=mRNA;gene=gene-UL44-iso1;product=UL44 iso1
+NC_001806.2	tpg	exon	97951	98705	.	+	.	ID=exon-UL44-UL45-2-2;Note=spliced;Parent=UL44-iso1;gbkey=mRNA;gene=gene-UL44-iso1;product=UL44 iso1
+NC_001806.2	tpg	gene	97954	98705	.	+	.	ID=gene-UL45;Name=UL45;gene=gene-UL45
+NC_001806.2	tpg	mRNA	97954	98705	.	+	.	ID=UL45;Note=UL45 RNA;Parent=gene-UL45;gbkey=mRNA;gene=gene-UL45;product=UL45;support=6
+NC_001806.2	tpg	exon	97954	98705	.	+	.	ID=exon-UL44-UL45-3-1;Parent=UL45;gbkey=mRNA;gene=gene-UL45;product=UL45
+NC_001806.2	tpg	gene	101287	108176	.	+	.	ID=gene-UL46.5;Name=UL46.5;gene=gene-UL46.5
+NC_001806.2	tpg	mRNA	101287	108176	.	+	.	ID=UL46.5;Note=UL46.5 RNA %5BPeak in both cRNA-seq replicates. Required for expression of UL46.5 sORF 1 and 2.%5D;Parent=gene-UL46.5;gbkey=mRNA;gene=gene-UL46.5;product=UL46.5;support=0
+NC_001806.2	tpg	exon	101287	108176	.	+	.	ID=exon-UL46.5-UL50-1;Parent=UL46.5;gbkey=mRNA;gene=gene-UL46.5;product=UL46.5
+NC_001806.2	tpg	gene	103416	108176	.	+	.	ID=gene-UL47.5;Name=UL47.5;gene=gene-UL47.5
+NC_001806.2	tpg	mRNA	103416	108176	.	+	.	ID=UL47.5;Note=UL47.5 RNA %28orphan%29;Parent=gene-UL47.5;gbkey=mRNA;gene=gene-UL47.5;product=UL47.5;support=2
+NC_001806.2	tpg	exon	103416	108176	.	+	.	ID=exon-UL46.5-UL50-2-1;Note=orphan;Parent=UL47.5;gbkey=mRNA;gene=gene-UL47.5;product=UL47.5
+NC_001806.2	tpg	gene	106830	108176	.	+	.	ID=gene-UL50;Name=UL50;gene=gene-UL50
+NC_001806.2	tpg	mRNA	106830	108176	.	+	.	ID=UL50;Note=UL50 RNA;Parent=gene-UL50;gbkey=mRNA;gene=gene-UL50;product=UL50;support=7
+NC_001806.2	tpg	exon	106830	108176	.	+	.	ID=exon-UL46.5-UL50-3-1;Parent=UL50;gbkey=mRNA;gene=gene-UL50;product=UL50
+NC_001806.2	tpg	gene	108986	113466	.	+	.	ID=gene-UL52;Name=UL52;gene=gene-UL52
+NC_001806.2	tpg	mRNA	108986	113466	.	+	.	ID=UL52;Note=UL52 RNA;Parent=gene-UL52;gbkey=mRNA;gene=gene-UL52;product=UL52;support=4
+NC_001806.2	tpg	exon	108986	113466	.	+	.	ID=exon-UL52-UL53-1;Parent=UL52;gbkey=mRNA;gene=gene-UL52;product=UL52
+NC_001806.2	tpg	gene	111762	113466	.	+	.	ID=gene-UL53;Name=UL53;gene=gene-UL53
+NC_001806.2	tpg	mRNA	111762	113466	.	+	.	ID=UL53;Note=UL53 RNA;Parent=gene-UL53;gbkey=mRNA;gene=gene-UL53;product=UL53;support=6
+NC_001806.2	tpg	exon	111762	113466	.	+	.	ID=exon-UL52-UL53-2-1;Parent=UL53;gbkey=mRNA;gene=gene-UL53;product=UL53
+NC_001806.2	tpg	gene	111944	113466	.	+	.	ID=gene-UL53-%231;Name=UL53-%231;gene=gene-UL53-%231
+NC_001806.2	tpg	mRNA	111944	113466	.	+	.	ID=UL53-%231;Note=UL53 RNA %231;Parent=gene-UL53-%231;gbkey=mRNA;gene=gene-UL53-%231;product=UL53 %231;support=4
+NC_001806.2	tpg	exon	111944	113466	.	+	.	ID=exon-UL52-UL53-3-1;Parent=UL53-%231;gbkey=mRNA;gene=gene-UL53-%231;product=UL53 %231
+NC_001806.2	tpg	gene	112512	113466	.	+	.	ID=gene-UL53-%232;Name=UL53-%232;gene=gene-UL53-%232
+NC_001806.2	tpg	mRNA	112512	113466	.	+	.	ID=UL53-%232;Note=UL53 RNA %232 %28encodes UL53 iORF%29;Parent=gene-UL53-%232;gbkey=mRNA;gene=gene-UL53-%232;product=UL53 %232;support=4
+NC_001806.2	tpg	exon	112512	113466	.	+	.	ID=exon-UL52-UL53-4-1;Note=encodes UL53 iORF;Parent=UL53-%232;gbkey=mRNA;gene=gene-UL53-%232;product=UL53 %232
+NC_001806.2	tpg	gene	113599	115303	.	+	.	ID=gene-UL54;Name=UL54;gene=gene-UL54
+NC_001806.2	tpg	mRNA	113599	115303	.	+	.	ID=UL54;Note=UL54 RNA;Parent=gene-UL54;gbkey=mRNA;gene=gene-UL54;product=UL54;support=5
+NC_001806.2	tpg	exon	113599	115303	.	+	.	ID=exon-UL54-UL55-1;Parent=UL54;gbkey=mRNA;gene=gene-UL54;product=UL54
+NC_001806.2	tpg	gene	115028	116123	.	+	.	ID=gene-UL54.4;Name=UL54.4;gene=gene-UL54.4
+NC_001806.2	tpg	mRNA	115028	116123	.	+	.	ID=UL54.4;Note=UL54.4 RNA %28PacBio%3B read-through%3B orphan%29;Parent=gene-UL54.4;gbkey=mRNA;gene=gene-UL54.4;product=UL54.4;support=3
+NC_001806.2	tpg	exon	115028	116123	.	+	.	ID=exon-UL54-UL55-2-1;Note=PacBio%3B read-through%3B orphan;Parent=UL54.4;gbkey=mRNA;gene=gene-UL54.4;product=UL54.4
+NC_001806.2	tpg	gene	115445	116123	.	+	.	ID=gene-UL55;Name=UL55;gene=gene-UL55
+NC_001806.2	tpg	mRNA	115445	116123	.	+	.	ID=UL55;Note=UL55 RNA;Parent=gene-UL55;gbkey=mRNA;gene=gene-UL55;product=UL55;support=5
+NC_001806.2	tpg	exon	115445	116123	.	+	.	ID=exon-UL54-UL55-3-1;Parent=UL55;gbkey=mRNA;gene=gene-UL55;product=UL55
+NC_001806.2	tpg	gene	117949	118732	.	+	.	ID=gene-IRL2.5-%2A2;Name=IRL2.5-%2A2;gene=gene-IRL2.5-%2A2
+NC_001806.2	tpg	mRNA	117949	118732	.	+	.	ID=IRL2.5-%2A2;Note=IRL2.5 RNA %2A2 %28%3DLAT 0.7kb%3B %3Dpri-miRNA-H1%29;Parent=gene-IRL2.5-%2A2;gbkey=mRNA;gene=gene-IRL2.5-%2A2;product=IRL2.5 %2A2;support=2
+NC_001806.2	tpg	exon	117949	118732	.	+	.	ID=exon-IRL2.5-1;Note=LAT 0.7kb%3B pri-miRNA-H1;Parent=IRL2.5-%2A2;gbkey=mRNA;gene=gene-IRL2.5-%2A2;product=IRL2.5 %2A2
+NC_001806.2	tpg	gene	117979	118732	.	+	.	ID=gene-IRL2.5-%2A1;Name=IRL2.5-%2A1;gene=gene-IRL2.5-%2A1
+NC_001806.2	tpg	mRNA	117979	118732	.	+	.	ID=IRL2.5-%2A1;Note=IRL2.5 RNA %2A1 %28%3DLAT 0.7kb%3B %3Dpri-miRNA-H1%29 %5BStrong peak in both dRNA-seq and one cRNA-seq replicate. Weak peak in the other cRNA-seq replicate. 0.7kb LAT.%5D;Parent=gene-IRL2.5-%2A1;gbkey=mRNA;gene=gene-IRL2.5-%2A1;product=IRL2.5 %2A1;support=1
+NC_001806.2	tpg	exon	117979	118732	.	+	.	ID=exon-IRL2.5-2-1;Note=LAT 0.7kb%3B pri-miRNA-H1;Parent=IRL2.5-%2A1;gbkey=mRNA;gene=gene-IRL2.5-%2A1;product=IRL2.5 %2A1
+NC_001806.2	tpg	gene	118140	118732	.	+	.	ID=gene-IRL2.5;Name=IRL2.5;gene=gene-IRL2.5
+NC_001806.2	tpg	mRNA	118140	118732	.	+	.	ID=IRL2.5;Note=IRL2.5 RNA %28%3Dpri-miRNA-H1%29;Parent=gene-IRL2.5;gbkey=mRNA;gene=gene-IRL2.5;product=IRL2.5;support=3
+NC_001806.2	tpg	exon	118140	118732	.	+	.	ID=exon-IRL2.5-3-1;Note=pri-miRNA-H1;Parent=IRL2.5;gbkey=mRNA;gene=gene-IRL2.5;product=IRL2.5
+NC_001806.2	tpg	gene	118618	118732	.	+	.	ID=gene-IRL2.5-%231;Name=IRL2.5-%231;gene=gene-IRL2.5-%231
+NC_001806.2	tpg	mRNA	118618	118732	.	+	.	ID=IRL2.5-%231;Note=IRL2.5 RNA %231 %28orphan%29;Parent=gene-IRL2.5-%231;gbkey=mRNA;gene=gene-IRL2.5-%231;product=IRL2.5 %231;support=2
+NC_001806.2	tpg	exon	118618	118732	.	+	.	ID=exon-IRL2.5-4-1;Note=orphan;Parent=IRL2.5-%231;gbkey=mRNA;gene=gene-IRL2.5-%231;product=IRL2.5 %231
+NC_001806.2	tpg	gene	118807	127172	.	+	.	ID=gene-LAT-iso1;Name=LAT-iso1;gene=gene-LAT-iso1
+NC_001806.2	tpg	mRNA	118807	127172	.	+	.	ID=LAT-iso1;Note=LAT iso1 %28spliced%29 %5BLatency associated transcript %28LAT%29%5D;Parent=gene-LAT-iso1;gbkey=mRNA;gene=gene-LAT-iso1;product=LAT iso1;support=0
+NC_001806.2	tpg	exon	118807	119464	.	+	.	ID=exon-LAT-ORF-O-2-1;Note=spliced;Parent=LAT-iso1;gbkey=mRNA;gene=gene-LAT-iso1;product=LAT iso1
+NC_001806.2	tpg	exon	121421	127172	.	+	.	ID=exon-LAT-ORF-O-2-2;Note=spliced;Parent=LAT-iso1;gbkey=mRNA;gene=gene-LAT-iso1;product=LAT iso1
+NC_001806.2	tpg	gene	118807	127172	.	+	.	ID=gene-LAT;Name=LAT;gene=gene-LAT
+NC_001806.2	tpg	mRNA	118807	127172	.	+	.	ID=LAT;Note=LAT %5BLatency associated transcript %28LAT%29%5D;Parent=gene-LAT;gbkey=mRNA;gene=gene-LAT;product=LAT;support=0
+NC_001806.2	tpg	exon	118807	127172	.	+	.	ID=exon-LAT-ORF-O-1;Parent=LAT;gbkey=mRNA;gene=gene-LAT;product=LAT
+NC_001806.2	tpg	gene	121164	127172	.	+	.	ID=gene-pri-miRNA-H2/H7/H8/H3/H4/H5;Name=pri-miRNA-H2/H7/H8/H3/H4/H5;gene=gene-pri-miRNA-H2/H7/H8/H3/H4/H5
+NC_001806.2	tpg	mRNA	121164	127172	.	+	.	ID=pri-miRNA-H2/H7/H8/H3/H4/H5;Note=pri-miRNA-H2/H7/H8/H3/H4/H5 %28initiates within LAT%29;Parent=gene-pri-miRNA-H2/H7/H8/H3/H4/H5;gbkey=mRNA;gene=gene-pri-miRNA-H2/H7/H8/H3/H4/H5;product=pri-miRNA-H2/H7/H8/H3/H4/H5;support=2
+NC_001806.2	tpg	exon	121164	127172	.	+	.	ID=exon-LAT-ORF-O-3-1;Note=initiates within LAT;Parent=pri-miRNA-H2/H7/H8/H3/H4/H5;gbkey=mRNA;gene=gene-pri-miRNA-H2/H7/H8/H3/H4/H5;product=pri-miRNA-H2/H7/H8/H3/H4/H5
+NC_001806.2	tpg	gene	122775	127172	.	+	.	ID=gene-pri-miRNA-H7/H8/H3/H4/H5;Name=pri-miRNA-H7/H8/H3/H4/H5;gene=gene-pri-miRNA-H7/H8/H3/H4/H5
+NC_001806.2	tpg	mRNA	122775	127172	.	+	.	ID=pri-miRNA-H7/H8/H3/H4/H5;Note=pri-miRNA-H7/H8/H3/H4/H5 %28initiates within LAT%29;Parent=gene-pri-miRNA-H7/H8/H3/H4/H5;gbkey=mRNA;gene=gene-pri-miRNA-H7/H8/H3/H4/H5;product=pri-miRNA-H7/H8/H3/H4/H5;support=3
+NC_001806.2	tpg	exon	122775	127172	.	+	.	ID=exon-LAT-ORF-O-4-1;Note=initiates within LAT;Parent=pri-miRNA-H7/H8/H3/H4/H5;gbkey=mRNA;gene=gene-pri-miRNA-H7/H8/H3/H4/H5;product=pri-miRNA-H7/H8/H3/H4/H5
+NC_001806.2	tpg	gene	125049	127172	.	+	.	ID=gene-ORF-O/P;Name=ORF-O/P;gene=gene-ORF-O/P
+NC_001806.2	tpg	mRNA	125049	127172	.	+	.	ID=ORF-O/P;Note=ORF-O/P RNA %28%3Dpri-miRNA-H3/H4/H5%2C inhibited by ICP4%29;Parent=gene-ORF-O/P;gbkey=mRNA;gene=gene-ORF-O/P;product=ORF-O/P;support=2
+NC_001806.2	tpg	exon	125049	127172	.	+	.	ID=exon-LAT-ORF-O-5-1;Note=pri-miRNA-H3/H4/H5%2C inhibited by ICP4;Parent=ORF-O/P;gbkey=mRNA;gene=gene-ORF-O/P;product=ORF-O/P
+NC_001806.2	tpg	gene	132130	133968	.	+	.	ID=gene-US1;Name=US1;gene=gene-US1
+NC_001806.2	tpg	mRNA	132130	133968	.	+	.	ID=US1;Note=US1 RNA %28spliced%29;Parent=gene-US1;gbkey=mRNA;gene=gene-US1;product=US1;support=6
+NC_001806.2	tpg	exon	132130	132375	.	+	.	ID=exon-US1-US1.5-1;Note=spliced;Parent=US1;gbkey=mRNA;gene=gene-US1;product=US1
+NC_001806.2	tpg	exon	132544	133968	.	+	.	ID=exon-US1-US1.5-2;Note=spliced;Parent=US1;gbkey=mRNA;gene=gene-US1;product=US1
+NC_001806.2	tpg	gene	133084	133968	.	+	.	ID=gene-US1.5;Name=US1.5;gene=gene-US1.5
+NC_001806.2	tpg	mRNA	133084	133968	.	+	.	ID=US1.5;Note=US1.5 RNA %28Carter %26 Roizman%2C JVI 1996%29 %5BObserved by Carter %26 Roizman%2C JVI 1996. No evidence for this TiSS in our data.%5D;Parent=gene-US1.5;gbkey=mRNA;gene=gene-US1.5;product=US1.5;support=1
+NC_001806.2	tpg	exon	133084	133968	.	+	.	ID=exon-US1-US1.5-2-1;Note=Carter %26 Roizman%2C JVI 1996;Parent=US1.5;gbkey=mRNA;gene=gene-US1.5;product=US1.5
+NC_001806.2	tpg	gene	134623	137541	.	+	.	ID=gene-US2.5;Name=US2.5;gene=gene-US2.5
+NC_001806.2	tpg	mRNA	134623	137541	.	+	.	ID=US2.5;Note=US2.5 RNA;Parent=gene-US2.5;gbkey=mRNA;gene=gene-US2.5;product=US2.5;support=2
+NC_001806.2	tpg	exon	134623	137541	.	+	.	ID=exon-US2.5-US4-1;Parent=US2.5;gbkey=mRNA;gene=gene-US2.5;product=US2.5
+NC_001806.2	tpg	gene	134967	137541	.	+	.	ID=gene-US3;Name=US3;gene=gene-US3
+NC_001806.2	tpg	mRNA	134967	137541	.	+	.	ID=US3;Note=US3 RNA %28also encodes US3.5 CDS%29;Parent=gene-US3;gbkey=mRNA;gene=gene-US3;product=US3;support=4
+NC_001806.2	tpg	exon	134967	137541	.	+	.	ID=exon-US2.5-US4-2-1;Note=also encodes US3.5 CDS;Parent=US3;gbkey=mRNA;gene=gene-US3;product=US3
+NC_001806.2	tpg	gene	135123	137541	.	+	.	ID=gene-US3-%231;Name=US3-%231;gene=gene-US3-%231
+NC_001806.2	tpg	mRNA	135123	137541	.	+	.	ID=US3-%231;Note=US3 RNA %231 %28also encodes US3.5 CDS%29;Parent=gene-US3-%231;gbkey=mRNA;gene=gene-US3-%231;product=US3 %231;support=2
+NC_001806.2	tpg	exon	135123	137541	.	+	.	ID=exon-US2.5-US4-3-1;Note=also encodes US3.5 CDS;Parent=US3-%231;gbkey=mRNA;gene=gene-US3-%231;product=US3 %231
+NC_001806.2	tpg	gene	135190	137541	.	+	.	ID=gene-US3-%232;Name=US3-%232;gene=gene-US3-%232
+NC_001806.2	tpg	mRNA	135190	137541	.	+	.	ID=US3-%232;Note=US3 RNA %232 %28also encodes US3.5 CDS%29;Parent=gene-US3-%232;gbkey=mRNA;gene=gene-US3-%232;product=US3 %232;support=3
+NC_001806.2	tpg	exon	135190	137541	.	+	.	ID=exon-US2.5-US4-4-1;Note=also encodes US3.5 CDS;Parent=US3-%232;gbkey=mRNA;gene=gene-US3-%232;product=US3 %232
+NC_001806.2	tpg	gene	136735	137541	.	+	.	ID=gene-US4;Name=US4;gene=gene-US4
+NC_001806.2	tpg	mRNA	136735	137541	.	+	.	ID=US4;Note=US4 RNA;Parent=gene-US4;gbkey=mRNA;gene=gene-US4;product=US4;support=8
+NC_001806.2	tpg	exon	136735	137541	.	+	.	ID=exon-US2.5-US4-5-1;Parent=US4;gbkey=mRNA;gene=gene-US4;product=US4
+NC_001806.2	tpg	gene	137626	141042	.	+	.	ID=gene-US5;Name=US5;gene=gene-US5
+NC_001806.2	tpg	mRNA	137626	141042	.	+	.	ID=US5;Note=US5 RNA;Parent=gene-US5;gbkey=mRNA;gene=gene-US5;product=US5;support=7
+NC_001806.2	tpg	exon	137626	141042	.	+	.	ID=exon-US5-US7-1;Parent=US5;gbkey=mRNA;gene=gene-US5;product=US5
+NC_001806.2	tpg	gene	138346	141042	.	+	.	ID=gene-US6;Name=US6;gene=gene-US6
+NC_001806.2	tpg	mRNA	138346	141042	.	+	.	ID=US6;Note=US6 RNA;Parent=gene-US6;gbkey=mRNA;gene=gene-US6;product=US6;support=7
+NC_001806.2	tpg	exon	138346	141042	.	+	.	ID=exon-US5-US7-2-1;Parent=US6;gbkey=mRNA;gene=gene-US6;product=US6
+NC_001806.2	tpg	gene	139700	141042	.	+	.	ID=gene-US7;Name=US7;gene=gene-US7
+NC_001806.2	tpg	mRNA	139700	141042	.	+	.	ID=US7;Note=US7 RNA;Parent=gene-US7;gbkey=mRNA;gene=gene-US7;product=US7;support=6
+NC_001806.2	tpg	exon	139700	141042	.	+	.	ID=exon-US5-US7-3-1;Parent=US7;gbkey=mRNA;gene=gene-US7;product=US7
+NC_001806.2	tpg	gene	141172	143695	.	+	.	ID=gene-US8;Name=US8;gene=gene-US8
+NC_001806.2	tpg	mRNA	141172	143695	.	+	.	ID=US8;Note=US8 RNA;Parent=gene-US8;gbkey=mRNA;gene=gene-US8;product=US8;support=6
+NC_001806.2	tpg	exon	141172	143695	.	+	.	ID=exon-US8-US9-1;Parent=US8;gbkey=mRNA;gene=gene-US8;product=US8
+NC_001806.2	tpg	gene	142630	143695	.	+	.	ID=gene-US8.5;Name=US8.5;gene=gene-US8.5
+NC_001806.2	tpg	mRNA	142630	143695	.	+	.	ID=US8.5;Note=US8.5 RNA %28encodes US8A%29;Parent=gene-US8.5;gbkey=mRNA;gene=gene-US8.5;product=US8.5;support=7
+NC_001806.2	tpg	exon	142630	143695	.	+	.	ID=exon-US8-US9-2-1;Note=encodes US8A;Parent=US8.5;gbkey=mRNA;gene=gene-US8.5;product=US8.5
+NC_001806.2	tpg	gene	143252	143695	.	+	.	ID=gene-US9;Name=US9;gene=gene-US9
+NC_001806.2	tpg	mRNA	143252	143695	.	+	.	ID=US9;Note=US9 RNA;Parent=gene-US9;gbkey=mRNA;gene=gene-US9;product=US9;support=5
+NC_001806.2	tpg	exon	143252	143695	.	+	.	ID=exon-US8-US9-3-1;Parent=US9;gbkey=mRNA;gene=gene-US9;product=US9
+NC_001806.2	tpg	gene	145908	151027	.	+	.	ID=gene-Ori-S;Name=Ori-S;gene=gene-Ori-S
+NC_001806.2	tpg	mRNA	145908	151027	.	+	.	ID=Ori-S;Note=Ori-S RNA %28Hubenthal-Voss%2CStarr%2CRoizman JVI 1987%3B encode Ori-S CDS%29 %5BObserved by Hubenthal-Voss%2CStarr%2CRoizman JVI 1987. Weak peak as well as increase in read coverage downstream of TiSS in both cRNA-seq replicates.%5D;Parent=gene-Ori-S;gbkey=mRNA;gene=gene-Ori-S;product=Ori-S;support=1
+NC_001806.2	tpg	exon	145908	151027	.	+	.	ID=exon-Ori-S-TRS1-1;Note=Hubenthal-Voss%2CStarr%2CRoizman JVI 1987%3B encode Ori-S CDS;Parent=Ori-S;gbkey=mRNA;gene=gene-Ori-S;product=Ori-S
+NC_001806.2	tpg	gene	146767	151027	.	+	.	ID=gene-TRS1;Name=TRS1;gene=gene-TRS1
+NC_001806.2	tpg	mRNA	146767	151027	.	+	.	ID=TRS1;Note=TRS1 RNA;Parent=gene-TRS1;gbkey=mRNA;gene=gene-TRS1;product=TRS1;support=3
+NC_001806.2	tpg	exon	146767	151027	.	+	.	ID=exon-Ori-S-TRS1-2-1;Parent=TRS1;gbkey=mRNA;gene=gene-TRS1;product=TRS1
+NC_001806.2	tpg	gene	147356	151027	.	+	.	ID=gene-TRS1-%231;Name=TRS1-%231;gene=gene-TRS1-%231
+NC_001806.2	tpg	mRNA	147356	151027	.	+	.	ID=TRS1-%231;Note=TRS1 RNA %231 %28orphan%2C may encode truncated isoform of TRS1 CDS%29;Parent=gene-TRS1-%231;gbkey=mRNA;gene=gene-TRS1-%231;product=TRS1 %231;support=2
+NC_001806.2	tpg	exon	147356	151027	.	+	.	ID=exon-Ori-S-TRS1-3-1;Note=orphan%2C may encode truncated isoform of TRS1 CDS;Parent=TRS1-%231;gbkey=mRNA;gene=gene-TRS1-%231;product=TRS1 %231
+NC_001806.2	tpg	gene	7642	7756	.	-	.	ID=gene-TRL2.5-%231;Name=TRL2.5-%231;gene=gene-TRL2.5-%231
+NC_001806.2	tpg	mRNA	7642	7756	.	-	.	ID=TRL2.5-%231;Note=TRL2.5 RNA %231 %28orphan%29;Parent=gene-TRL2.5-%231;gbkey=mRNA;gene=gene-TRL2.5-%231;product=TRL2.5 %231;support=2
+NC_001806.2	tpg	exon	7642	7756	.	-	.	ID=exon-TRL2.5-4-1;Note=orphan;Parent=TRL2.5-%231;gbkey=mRNA;gene=gene-TRL2.5-%231;product=TRL2.5 %231
+NC_001806.2	tpg	gene	7642	8234	.	-	.	ID=gene-TRL2.5;Name=TRL2.5;gene=gene-TRL2.5
+NC_001806.2	tpg	mRNA	7642	8234	.	-	.	ID=TRL2.5;Note=TRL2.5 RNA %28%3DLAT 0.7kb%3B %3Dpri-miRNA-H1%29;Parent=gene-TRL2.5;gbkey=mRNA;gene=gene-TRL2.5;product=TRL2.5;support=3
+NC_001806.2	tpg	exon	7642	8234	.	-	.	ID=exon-TRL2.5-3-1;Note=LAT 0.7kb%3B pri-miRNA-H1;Parent=TRL2.5;gbkey=mRNA;gene=gene-TRL2.5;product=TRL2.5
+NC_001806.2	tpg	gene	7642	8395	.	-	.	ID=gene-TRL2.5-%2A1;Name=TRL2.5-%2A1;gene=gene-TRL2.5-%2A1
+NC_001806.2	tpg	mRNA	7642	8395	.	-	.	ID=TRL2.5-%2A1;Note=TRL2.5 RNA %2A1 %28%3DLAT 0.7kb%3B %3Dpri-miRNA-H1%29 %5BStrong peak in both dRNA-seq and one cRNA-seq replicate. Weak peak in the other sRNA-seq replicate.%5D;Parent=gene-TRL2.5-%2A1;gbkey=mRNA;gene=gene-TRL2.5-%2A1;product=TRL2.5 %2A1;support=1
+NC_001806.2	tpg	exon	7642	8395	.	-	.	ID=exon-TRL2.5-2-1;Note=LAT 0.7kb%3B pri-miRNA-H1;Parent=TRL2.5-%2A1;gbkey=mRNA;gene=gene-TRL2.5-%2A1;product=TRL2.5 %2A1
+NC_001806.2	tpg	gene	7642	8425	.	-	.	ID=gene-TRL2.5-%2A2;Name=TRL2.5-%2A2;gene=gene-TRL2.5-%2A2
+NC_001806.2	tpg	mRNA	7642	8425	.	-	.	ID=TRL2.5-%2A2;Note=TRL2.5 RNA %2A2 %28%3Dpri-miRNA-H1%29;Parent=gene-TRL2.5-%2A2;gbkey=mRNA;gene=gene-TRL2.5-%2A2;product=TRL2.5 %2A2;support=2
+NC_001806.2	tpg	exon	7642	8425	.	-	.	ID=exon-TRL2.5-1;Note=pri-miRNA-H1;Parent=TRL2.5-%2A2;gbkey=mRNA;gene=gene-TRL2.5-%2A2;product=TRL2.5 %2A2
+NC_001806.2	tpg	gene	11734	12495	.	-	.	ID=gene-UL4;Name=UL4;gene=gene-UL4
+NC_001806.2	tpg	mRNA	11734	12495	.	-	.	ID=UL4;Note=UL4 RNA;Parent=gene-UL4;gbkey=mRNA;gene=gene-UL4;product=UL4;support=4
+NC_001806.2	tpg	exon	11734	12495	.	-	.	ID=exon-UL4-UL6.6-7-1;Parent=UL4;gbkey=mRNA;gene=gene-UL4;product=UL4
+NC_001806.2	tpg	gene	11734	13519	.	-	.	ID=gene-UL4.6;Name=UL4.6;gene=gene-UL4.6
+NC_001806.2	tpg	mRNA	11734	13519	.	-	.	ID=UL4.6;Note=UL4.6 RNA %28orphan%3B PacBio only%29;Parent=gene-UL4.6;gbkey=mRNA;gene=gene-UL4.6;product=UL4.6;support=2
+NC_001806.2	tpg	exon	11734	13519	.	-	.	ID=exon-UL4-UL6.6-6-1;Note=orphan%3B PacBio only;Parent=UL4.6;gbkey=mRNA;gene=gene-UL4.6;product=UL4.6
+NC_001806.2	tpg	gene	11734	15582	.	-	.	ID=gene-UL5;Name=UL5;gene=gene-UL5
+NC_001806.2	tpg	mRNA	11734	15582	.	-	.	ID=UL5;Note=UL5 RNA;Parent=gene-UL5;gbkey=mRNA;gene=gene-UL5;product=UL5;support=5
+NC_001806.2	tpg	exon	11734	15582	.	-	.	ID=exon-UL4-UL6.6-5-1;Parent=UL5;gbkey=mRNA;gene=gene-UL5;product=UL5
+NC_001806.2	tpg	gene	11734	15618	.	-	.	ID=gene-UL5-%2A1;Name=UL5-%2A1;gene=gene-UL5-%2A1
+NC_001806.2	tpg	mRNA	11734	15618	.	-	.	ID=UL5-%2A1;Note=UL5 RNA %2A1;Parent=gene-UL5-%2A1;gbkey=mRNA;gene=gene-UL5-%2A1;product=UL5 %2A1;support=3
+NC_001806.2	tpg	exon	11734	15618	.	-	.	ID=exon-UL4-UL6.6-4-1;Parent=UL5-%2A1;gbkey=mRNA;gene=gene-UL5-%2A1;product=UL5 %2A1
+NC_001806.2	tpg	gene	11734	16007	.	-	.	ID=gene-UL6.4;Name=UL6.4;gene=gene-UL6.4
+NC_001806.2	tpg	mRNA	11734	16007	.	-	.	ID=UL6.4;Note=UL6.4 RNA;Parent=gene-UL6.4;gbkey=mRNA;gene=gene-UL6.4;product=UL6.4;support=2
+NC_001806.2	tpg	exon	11734	16007	.	-	.	ID=exon-UL4-UL6.6-3-1;Parent=UL6.4;gbkey=mRNA;gene=gene-UL6.4;product=UL6.4
+NC_001806.2	tpg	gene	11734	16724	.	-	.	ID=gene-UL6.5;Name=UL6.5;gene=gene-UL6.5
+NC_001806.2	tpg	mRNA	11734	16724	.	-	.	ID=UL6.5;Note=UL6.5 RNA;Parent=gene-UL6.5;gbkey=mRNA;gene=gene-UL6.5;product=UL6.5;support=2
+NC_001806.2	tpg	exon	11734	16724	.	-	.	ID=exon-UL4-UL6.6-2-1;Parent=UL6.5;gbkey=mRNA;gene=gene-UL6.5;product=UL6.5
+NC_001806.2	tpg	gene	11734	17359	.	-	.	ID=gene-UL6.6;Name=UL6.6;gene=gene-UL6.6
+NC_001806.2	tpg	mRNA	11734	17359	.	-	.	ID=UL6.6;Note=UL6.6 RNA;Parent=gene-UL6.6;gbkey=mRNA;gene=gene-UL6.6;product=UL6.6;support=2
+NC_001806.2	tpg	exon	11734	17359	.	-	.	ID=exon-UL4-UL6.6-1;Parent=UL6.6;gbkey=mRNA;gene=gene-UL6.6;product=UL6.6
+NC_001806.2	tpg	gene	18188	20680	.	-	.	ID=gene-UL8;Name=UL8;gene=gene-UL8
+NC_001806.2	tpg	mRNA	18188	20680	.	-	.	ID=UL8;Note=UL8 RNA;Parent=gene-UL8;gbkey=mRNA;gene=gene-UL8;product=UL8;support=6
+NC_001806.2	tpg	exon	18188	20680	.	-	.	ID=exon-UL8-UL9.5-5-1;Parent=UL8;gbkey=mRNA;gene=gene-UL8;product=UL8
+NC_001806.2	tpg	gene	18188	22195	.	-	.	ID=gene-UL8.5;Name=UL8.5;gene=gene-UL8.5
+NC_001806.2	tpg	mRNA	18188	22195	.	-	.	ID=UL8.5;Note=UL8.5 RNA;Parent=gene-UL8.5;gbkey=mRNA;gene=gene-UL8.5;product=UL8.5;support=3
+NC_001806.2	tpg	exon	18188	22195	.	-	.	ID=exon-UL8-UL9.5-4-1;Parent=UL8.5;gbkey=mRNA;gene=gene-UL8.5;product=UL8.5
+NC_001806.2	tpg	gene	18188	22351	.	-	.	ID=gene-UL8.5-%2A1;Name=UL8.5-%2A1;gene=gene-UL8.5-%2A1
+NC_001806.2	tpg	mRNA	18188	22351	.	-	.	ID=UL8.5-%2A1;Note=UL8.5 RNA %2A1 %28Baradaran et al 1994%3B TiSS not observed%29;Parent=gene-UL8.5-%2A1;gbkey=mRNA;gene=gene-UL8.5-%2A1;product=UL8.5 %2A1;support=2
+NC_001806.2	tpg	exon	18188	22351	.	-	.	ID=exon-UL8-UL9.5-3-1;Note=TiSS not observed;Parent=UL8.5-%2A1;gbkey=mRNA;gene=gene-UL8.5-%2A1;product=UL8.5 %2A1
+NC_001806.2	tpg	gene	18188	23381	.	-	.	ID=gene-UL9;Name=UL9;gene=gene-UL9
+NC_001806.2	tpg	mRNA	18188	23381	.	-	.	ID=UL9;Note=UL9 RNA %28Baradaran et al 1994%3B TiSS not observed%29;Parent=gene-UL9;gbkey=mRNA;gene=gene-UL9;product=UL9;support=2
+NC_001806.2	tpg	exon	18188	23381	.	-	.	ID=exon-UL8-UL9.5-2-1;Note=TiSS not observed;Parent=UL9;gbkey=mRNA;gene=gene-UL9;product=UL9
+NC_001806.2	tpg	gene	18188	24632	.	-	.	ID=gene-UL9.5;Name=UL9.5;gene=gene-UL9.5
+NC_001806.2	tpg	mRNA	18188	24632	.	-	.	ID=UL9.5;Note=UL9.5 RNA;Parent=gene-UL9.5;gbkey=mRNA;gene=gene-UL9.5;product=UL9.5;support=3
+NC_001806.2	tpg	exon	18188	24632	.	-	.	ID=exon-UL8-UL9.5-1;Parent=UL9.5;gbkey=mRNA;gene=gene-UL9.5;product=UL9.5
+NC_001806.2	tpg	gene	24775	25116	.	-	.	ID=gene-UL11;Name=UL11;gene=gene-UL11
+NC_001806.2	tpg	mRNA	24775	25116	.	-	.	ID=UL11;Note=UL11 RNA;Parent=gene-UL11;gbkey=mRNA;gene=gene-UL11;product=UL11;support=2
+NC_001806.2	tpg	exon	24775	25116	.	-	.	ID=exon-UL11-UL14-7-1;Parent=UL11;gbkey=mRNA;gene=gene-UL11;product=UL11
+NC_001806.2	tpg	gene	24775	25499	.	-	.	ID=gene-UL11.5;Name=UL11.5;gene=gene-UL11.5
+NC_001806.2	tpg	mRNA	24775	25499	.	-	.	ID=UL11.5;Note=UL11.5 RNA %28orphan%29;Parent=gene-UL11.5;gbkey=mRNA;gene=gene-UL11.5;product=UL11.5;support=4
+NC_001806.2	tpg	exon	24775	25499	.	-	.	ID=exon-UL11-UL14-6-1;Note=orphan;Parent=UL11.5;gbkey=mRNA;gene=gene-UL11.5;product=UL11.5
+NC_001806.2	tpg	gene	24775	26616	.	-	.	ID=gene-UL12.5;Name=UL12.5;gene=gene-UL12.5
+NC_001806.2	tpg	mRNA	24775	26616	.	-	.	ID=UL12.5;Note=UL12.5 RNA;Parent=gene-UL12.5;gbkey=mRNA;gene=gene-UL12.5;product=UL12.5;support=5
+NC_001806.2	tpg	exon	24775	26616	.	-	.	ID=exon-UL11-UL14-5-1;Parent=UL12.5;gbkey=mRNA;gene=gene-UL12.5;product=UL12.5
+NC_001806.2	tpg	gene	24775	27046	.	-	.	ID=gene-UL12;Name=UL12;gene=gene-UL12
+NC_001806.2	tpg	mRNA	24775	27046	.	-	.	ID=UL12;Note=UL12 RNA;Parent=gene-UL12;gbkey=mRNA;gene=gene-UL12;product=UL12;support=6
+NC_001806.2	tpg	exon	24775	27046	.	-	.	ID=exon-UL11-UL14-4-1;Parent=UL12;gbkey=mRNA;gene=gene-UL12;product=UL12
+NC_001806.2	tpg	gene	24775	28685	.	-	.	ID=gene-UL13;Name=UL13;gene=gene-UL13
+NC_001806.2	tpg	mRNA	24775	28685	.	-	.	ID=UL13;Note=UL13 RNA;Parent=gene-UL13;gbkey=mRNA;gene=gene-UL13;product=UL13;support=4
+NC_001806.2	tpg	exon	24775	28685	.	-	.	ID=exon-UL11-UL14-3-1;Parent=UL13;gbkey=mRNA;gene=gene-UL13;product=UL13
+NC_001806.2	tpg	gene	24775	29127	.	-	.	ID=gene-UL14-%231;Name=UL14-%231;gene=gene-UL14-%231
+NC_001806.2	tpg	mRNA	24775	29127	.	-	.	ID=UL14-%231;Note=UL14 RNA %231 %28does not encode UL14 uORF 1 %26 2%29;Parent=gene-UL14-%231;gbkey=mRNA;gene=gene-UL14-%231;product=UL14 %231;support=2
+NC_001806.2	tpg	exon	24775	29127	.	-	.	ID=exon-UL11-UL14-2-1;Note=does not encode UL14 uORF 1 %26 2;Parent=UL14-%231;gbkey=mRNA;gene=gene-UL14-%231;product=UL14 %231
+NC_001806.2	tpg	gene	24775	29250	.	-	.	ID=gene-UL14;Name=UL14;gene=gene-UL14
+NC_001806.2	tpg	mRNA	24775	29250	.	-	.	ID=UL14;Note=UL14 RNA;Parent=gene-UL14;gbkey=mRNA;gene=gene-UL14;product=UL14;support=4
+NC_001806.2	tpg	exon	24775	29250	.	-	.	ID=exon-UL11-UL14-1;Parent=UL14;gbkey=mRNA;gene=gene-UL14;product=UL14
+NC_001806.2	tpg	gene	30147	31608	.	-	.	ID=gene-UL16;Name=UL16;gene=gene-UL16
+NC_001806.2	tpg	mRNA	30147	31608	.	-	.	ID=UL16;Note=UL16 RNA;Parent=gene-UL16;gbkey=mRNA;gene=gene-UL16;product=UL16;support=5
+NC_001806.2	tpg	exon	30147	31608	.	-	.	ID=exon-UL16-UL17-4-1;Parent=UL16;gbkey=mRNA;gene=gene-UL16;product=UL16
+NC_001806.2	tpg	gene	30147	33627	.	-	.	ID=gene-UL17-%231;Name=UL17-%231;gene=gene-UL17-%231
+NC_001806.2	tpg	mRNA	30147	33627	.	-	.	ID=UL17-%231;Note=UL17 RNA %231;Parent=gene-UL17-%231;gbkey=mRNA;gene=gene-UL17-%231;product=UL17 %231;support=2
+NC_001806.2	tpg	exon	30147	33627	.	-	.	ID=exon-UL16-UL17-3-1;Parent=UL17-%231;gbkey=mRNA;gene=gene-UL17-%231;product=UL17 %231
+NC_001806.2	tpg	gene	30147	33815	.	-	.	ID=gene-UL17;Name=UL17;gene=gene-UL17
+NC_001806.2	tpg	mRNA	30147	33815	.	-	.	ID=UL17;Note=UL17 RNA;Parent=gene-UL17;gbkey=mRNA;gene=gene-UL17;product=UL17;support=6
+NC_001806.2	tpg	exon	30147	33815	.	-	.	ID=exon-UL16-UL17-2-1;Parent=UL17;gbkey=mRNA;gene=gene-UL17;product=UL17
+NC_001806.2	tpg	gene	30147	34039	.	-	.	ID=gene-UL17-%2A1;Name=UL17-%2A1;gene=gene-UL17-%2A1
+NC_001806.2	tpg	mRNA	30147	34039	.	-	.	ID=UL17-%2A1;Note=UL17 RNA %2A1;Parent=gene-UL17-%2A1;gbkey=mRNA;gene=gene-UL17-%2A1;product=UL17 %2A1;support=2
+NC_001806.2	tpg	exon	30147	34039	.	-	.	ID=exon-UL16-UL17-1;Parent=UL17-%2A1;gbkey=mRNA;gene=gene-UL17-%2A1;product=UL17 %2A1
+NC_001806.2	tpg	gene	35004	36248	.	-	.	ID=gene-UL18;Name=UL18;gene=gene-UL18
+NC_001806.2	tpg	mRNA	35004	36248	.	-	.	ID=UL18;Note=UL18 RNA;Parent=gene-UL18;gbkey=mRNA;gene=gene-UL18;product=UL18;support=7
+NC_001806.2	tpg	exon	35004	36248	.	-	.	ID=exon-UL18-UL20.6-4-1;Parent=UL18;gbkey=mRNA;gene=gene-UL18;product=UL18
+NC_001806.2	tpg	gene	35004	40767	.	-	.	ID=gene-UL19;Name=UL19;gene=gene-UL19
+NC_001806.2	tpg	mRNA	35004	40767	.	-	.	ID=UL19;Note=UL19 RNA;Parent=gene-UL19;gbkey=mRNA;gene=gene-UL19;product=UL19;support=6
+NC_001806.2	tpg	exon	35004	40767	.	-	.	ID=exon-UL18-UL20.6-3-1;Parent=UL19;gbkey=mRNA;gene=gene-UL19;product=UL19
+NC_001806.2	tpg	gene	35004	41614	.	-	.	ID=gene-UL20;Name=UL20;gene=gene-UL20
+NC_001806.2	tpg	mRNA	35004	41614	.	-	.	ID=UL20;Note=UL20 RNA;Parent=gene-UL20;gbkey=mRNA;gene=gene-UL20;product=UL20;support=6
+NC_001806.2	tpg	exon	35004	41614	.	-	.	ID=exon-UL18-UL20.6-2-1;Parent=UL20;gbkey=mRNA;gene=gene-UL20;product=UL20
+NC_001806.2	tpg	gene	35004	43563	.	-	.	ID=gene-UL20.6;Name=UL20.6;gene=gene-UL20.6
+NC_001806.2	tpg	mRNA	35004	43563	.	-	.	ID=UL20.6;Note=UL20.6 RNA %5BStrong peak in both cRNA-seq replicates and notable increase in coverage downstream of TiSS. Required for expression of UL26.6 uORF and UL20.6 ORF.%5D;Parent=gene-UL20.6;gbkey=mRNA;gene=gene-UL20.6;product=UL20.6;support=1
+NC_001806.2	tpg	exon	35004	43563	.	-	.	ID=exon-UL18-UL20.6-1;Parent=UL20.6;gbkey=mRNA;gene=gene-UL20.6;product=UL20.6
+NC_001806.2	tpg	gene	43815	46582	.	-	.	ID=gene-UL22;Name=UL22;gene=gene-UL22
+NC_001806.2	tpg	mRNA	43815	46582	.	-	.	ID=UL22;Note=UL22 RNA;Parent=gene-UL22;gbkey=mRNA;gene=gene-UL22;product=UL22;support=5
+NC_001806.2	tpg	exon	43815	46582	.	-	.	ID=exon-UL22-1;Parent=UL22;gbkey=mRNA;gene=gene-UL22;product=UL22
+NC_001806.2	tpg	gene	46605	47910	.	-	.	ID=gene-UL23;Name=UL23;gene=gene-UL23
+NC_001806.2	tpg	mRNA	46605	47910	.	-	.	ID=UL23;Note=UL23 RNA;Parent=gene-UL23;gbkey=mRNA;gene=gene-UL23;product=UL23;support=7
+NC_001806.2	tpg	exon	46605	47910	.	-	.	ID=exon-UL23-UL25.5-2-1;Parent=UL23;gbkey=mRNA;gene=gene-UL23;product=UL23
+NC_001806.2	tpg	gene	46605	50557	.	-	.	ID=gene-UL25.5;Name=UL25.5;gene=gene-UL25.5
+NC_001806.2	tpg	mRNA	46605	50557	.	-	.	ID=UL25.5;Note=UL25.5 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL25.5 ORF.%5D;Parent=gene-UL25.5;gbkey=mRNA;gene=gene-UL25.5;product=UL25.5;support=1
+NC_001806.2	tpg	exon	46605	50557	.	-	.	ID=exon-UL23-UL25.5-1;Parent=UL25.5;gbkey=mRNA;gene=gene-UL25.5;product=UL25.5
+NC_001806.2	tpg	gene	53033	56081	.	-	.	ID=gene-UL27;Name=UL27;gene=gene-UL27
+NC_001806.2	tpg	mRNA	53033	56081	.	-	.	ID=UL27;Note=UL27 RNA;Parent=gene-UL27;gbkey=mRNA;gene=gene-UL27;product=UL27;support=7
+NC_001806.2	tpg	exon	53033	56081	.	-	.	ID=exon-UL27-UL28-2-1;Parent=UL27;gbkey=mRNA;gene=gene-UL27;product=UL27
+NC_001806.2	tpg	gene	53033	58386	.	-	.	ID=gene-UL28;Name=UL28;gene=gene-UL28
+NC_001806.2	tpg	mRNA	53033	58386	.	-	.	ID=UL28;Note=UL28 RNA;Parent=gene-UL28;gbkey=mRNA;gene=gene-UL28;product=UL28;support=2
+NC_001806.2	tpg	exon	53033	58386	.	-	.	ID=exon-UL27-UL28-1;Parent=UL28;gbkey=mRNA;gene=gene-UL28;product=UL28
+NC_001806.2	tpg	gene	58391	60552	.	-	.	ID=gene-UL29.5;Name=UL29.5;gene=gene-UL29.5
+NC_001806.2	tpg	mRNA	58391	60552	.	-	.	ID=UL29.5;Note=UL29.5 RNA;Parent=gene-UL29.5;gbkey=mRNA;gene=gene-UL29.5;product=UL29.5;support=2
+NC_001806.2	tpg	exon	58391	60552	.	-	.	ID=exon-UL29.5-UL30.6-5-1;Parent=UL29.5;gbkey=mRNA;gene=gene-UL29.5;product=UL29.5
+NC_001806.2	tpg	gene	58391	62314	.	-	.	ID=gene-UL29;Name=UL29;gene=gene-UL29
+NC_001806.2	tpg	mRNA	58391	62314	.	-	.	ID=UL29;Note=UL29 RNA;Parent=gene-UL29;gbkey=mRNA;gene=gene-UL29;product=UL29;support=6
+NC_001806.2	tpg	exon	58391	62314	.	-	.	ID=exon-UL29.5-UL30.6-4-1;Parent=UL29;gbkey=mRNA;gene=gene-UL29;product=UL29
+NC_001806.2	tpg	gene	58391	63321	.	-	.	ID=gene-UL30.5-%231;Name=UL30.5-%231;gene=gene-UL30.5-%231
+NC_001806.2	tpg	mRNA	58391	63321	.	-	.	ID=UL30.5-%231;Note=UL30.5 RNA %231;Parent=gene-UL30.5-%231;gbkey=mRNA;gene=gene-UL30.5-%231;product=UL30.5 %231;support=2
+NC_001806.2	tpg	exon	58391	63321	.	-	.	ID=exon-UL29.5-UL30.6-3-1;Parent=UL30.5-%231;gbkey=mRNA;gene=gene-UL30.5-%231;product=UL30.5 %231
+NC_001806.2	tpg	gene	58391	63653	.	-	.	ID=gene-UL30.5;Name=UL30.5;gene=gene-UL30.5
+NC_001806.2	tpg	mRNA	58391	63653	.	-	.	ID=UL30.5;Note=UL30.5 RNA;Parent=gene-UL30.5;gbkey=mRNA;gene=gene-UL30.5;product=UL30.5;support=2
+NC_001806.2	tpg	exon	58391	63653	.	-	.	ID=exon-UL29.5-UL30.6-2-1;Parent=UL30.5;gbkey=mRNA;gene=gene-UL30.5;product=UL30.5
+NC_001806.2	tpg	gene	58391	65675	.	-	.	ID=gene-UL30.6;Name=UL30.6;gene=gene-UL30.6
+NC_001806.2	tpg	mRNA	58391	65675	.	-	.	ID=UL30.6;Note=UL30.6 RNA %5BStrong peak in both cRNA-seq replicates as well as a weak kinetic changes %28increase late in infection%29 in both replicates.%5D;Parent=gene-UL30.6;gbkey=mRNA;gene=gene-UL30.6;product=UL30.6;support=1
+NC_001806.2	tpg	exon	58391	65675	.	-	.	ID=exon-UL29.5-UL30.6-1;Parent=UL30.6;gbkey=mRNA;gene=gene-UL30.6;product=UL30.6
+NC_001806.2	tpg	gene	66363	67458	.	-	.	ID=gene-UL31;Name=UL31;gene=gene-UL31
+NC_001806.2	tpg	mRNA	66363	67458	.	-	.	ID=UL31;Note=UL31 RNA;Parent=gene-UL31;gbkey=mRNA;gene=gene-UL31;product=UL31;support=8
+NC_001806.2	tpg	exon	66363	67458	.	-	.	ID=exon-UL31-UL32-2-1;Parent=UL31;gbkey=mRNA;gene=gene-UL31;product=UL31
+NC_001806.2	tpg	gene	66363	69220	.	-	.	ID=gene-UL32;Name=UL32;gene=gene-UL32
+NC_001806.2	tpg	mRNA	66363	69220	.	-	.	ID=UL32;Note=UL32 RNA;Parent=gene-UL32;gbkey=mRNA;gene=gene-UL32;product=UL32;support=5
+NC_001806.2	tpg	exon	66363	69220	.	-	.	ID=exon-UL31-UL32-1;Parent=UL32;gbkey=mRNA;gene=gene-UL32;product=UL32
+NC_001806.2	tpg	gene	70959	74803	.	-	.	ID=gene-UL36-%231;Name=UL36-%231;gene=gene-UL36-%231
+NC_001806.2	tpg	mRNA	70959	74803	.	-	.	ID=UL36-%231;Note=UL36 RNA %231 %28orphan%2C may encode truncated isoform of UL36 CDS%29;Parent=gene-UL36-%231;gbkey=mRNA;gene=gene-UL36-%231;product=UL36 %231;support=2
+NC_001806.2	tpg	exon	70959	74803	.	-	.	ID=exon-UL36-2-1;Note=orphan%2C may encode truncated isoform of UL36 CDS;Parent=UL36-%231;gbkey=mRNA;gene=gene-UL36-%231;product=UL36 %231
+NC_001806.2	tpg	gene	70959	80472	.	-	.	ID=gene-UL36;Name=UL36;gene=gene-UL36
+NC_001806.2	tpg	mRNA	70959	80472	.	-	.	ID=UL36;Note=UL36 RNA;Parent=gene-UL36;gbkey=mRNA;gene=gene-UL36;product=UL36;support=2
+NC_001806.2	tpg	exon	70959	80472	.	-	.	ID=exon-UL36-1;Parent=UL36;gbkey=mRNA;gene=gene-UL36;product=UL36
+NC_001806.2	tpg	gene	80691	84147	.	-	.	ID=gene-UL37-%231;Name=UL37-%231;gene=gene-UL37-%231
+NC_001806.2	tpg	mRNA	80691	84147	.	-	.	ID=UL37-%231;Note=UL37 RNA %231 %28initiates downstream of TaSS of UL37 uoORF%29;Parent=gene-UL37-%231;gbkey=mRNA;gene=gene-UL37-%231;product=UL37 %231;support=3
+NC_001806.2	tpg	exon	80691	84147	.	-	.	ID=exon-UL37-UL39.6-9-1;Note=initiates downstream of TaSS of UL37 uoORF;Parent=UL37-%231;gbkey=mRNA;gene=gene-UL37-%231;product=UL37 %231
+NC_001806.2	tpg	gene	80691	84215	.	-	.	ID=gene-UL37;Name=UL37;gene=gene-UL37
+NC_001806.2	tpg	mRNA	80691	84215	.	-	.	ID=UL37;Note=UL37 RNA;Parent=gene-UL37;gbkey=mRNA;gene=gene-UL37;product=UL37;support=5
+NC_001806.2	tpg	exon	80691	84215	.	-	.	ID=exon-UL37-UL39.6-8-1;Parent=UL37;gbkey=mRNA;gene=gene-UL37;product=UL37
+NC_001806.2	tpg	gene	80691	85203	.	-	.	ID=gene-UL37.5-%231;Name=UL37.5-%231;gene=gene-UL37.5-%231
+NC_001806.2	tpg	mRNA	80691	85203	.	-	.	ID=UL37.5-%231;Note=UL37.5 RNA %231;Parent=gene-UL37.5-%231;gbkey=mRNA;gene=gene-UL37.5-%231;product=UL37.5 %231;support=2
+NC_001806.2	tpg	exon	80691	85203	.	-	.	ID=exon-UL37-UL39.6-7-1;Parent=UL37.5-%231;gbkey=mRNA;gene=gene-UL37.5-%231;product=UL37.5 %231
+NC_001806.2	tpg	gene	80691	85414	.	-	.	ID=gene-UL37.5;Name=UL37.5;gene=gene-UL37.5
+NC_001806.2	tpg	mRNA	80691	85414	.	-	.	ID=UL37.5;Note=UL37.5 RNA;Parent=gene-UL37.5;gbkey=mRNA;gene=gene-UL37.5;product=UL37.5;support=2
+NC_001806.2	tpg	exon	80691	85414	.	-	.	ID=exon-UL37-UL39.6-6-1;Parent=UL37.5;gbkey=mRNA;gene=gene-UL37.5;product=UL37.5
+NC_001806.2	tpg	gene	80691	85848	.	-	.	ID=gene-UL37.6-%231;Name=UL37.6-%231;gene=gene-UL37.6-%231
+NC_001806.2	tpg	mRNA	80691	85848	.	-	.	ID=UL37.6-%231;Note=UL37.6 RNA %231;Parent=gene-UL37.6-%231;gbkey=mRNA;gene=gene-UL37.6-%231;product=UL37.6 %231;support=2
+NC_001806.2	tpg	exon	80691	85848	.	-	.	ID=exon-UL37-UL39.6-5-1;Parent=UL37.6-%231;gbkey=mRNA;gene=gene-UL37.6-%231;product=UL37.6 %231
+NC_001806.2	tpg	gene	80691	86021	.	-	.	ID=gene-UL37.6;Name=UL37.6;gene=gene-UL37.6
+NC_001806.2	tpg	mRNA	80691	86021	.	-	.	ID=UL37.6;Note=UL37.6 RNA;Parent=gene-UL37.6;gbkey=mRNA;gene=gene-UL37.6;product=UL37.6;support=3
+NC_001806.2	tpg	exon	80691	86021	.	-	.	ID=exon-UL37-UL39.6-4-1;Parent=UL37.6;gbkey=mRNA;gene=gene-UL37.6;product=UL37.6
+NC_001806.2	tpg	gene	80691	88272	.	-	.	ID=gene-UL39.4;Name=UL39.4;gene=gene-UL39.4
+NC_001806.2	tpg	mRNA	80691	88272	.	-	.	ID=UL39.4;Note=UL39.4 RNA;Parent=gene-UL39.4;gbkey=mRNA;gene=gene-UL39.4;product=UL39.4;support=2
+NC_001806.2	tpg	exon	80691	88272	.	-	.	ID=exon-UL37-UL39.6-3-1;Parent=UL39.4;gbkey=mRNA;gene=gene-UL39.4;product=UL39.4
+NC_001806.2	tpg	gene	80691	88886	.	-	.	ID=gene-UL39.5;Name=UL39.5;gene=gene-UL39.5
+NC_001806.2	tpg	mRNA	80691	88886	.	-	.	ID=UL39.5;Note=UL39.5 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL39.5 ORF.%5D;Parent=gene-UL39.5;gbkey=mRNA;gene=gene-UL39.5;product=UL39.5;support=1
+NC_001806.2	tpg	exon	80691	88886	.	-	.	ID=exon-UL37-UL39.6-2-1;Parent=UL39.5;gbkey=mRNA;gene=gene-UL39.5;product=UL39.5
+NC_001806.2	tpg	gene	80691	90062	.	-	.	ID=gene-UL39.6;Name=UL39.6;gene=gene-UL39.6
+NC_001806.2	tpg	mRNA	80691	90062	.	-	.	ID=UL39.6;Note=UL39.6 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL39.6 ORF.%5D;Parent=gene-UL39.6;gbkey=mRNA;gene=gene-UL39.6;product=UL39.6;support=1
+NC_001806.2	tpg	exon	80691	90062	.	-	.	ID=exon-UL37-UL39.6-1;Parent=UL39.6;gbkey=mRNA;gene=gene-UL39.6;product=UL39.6
+NC_001806.2	tpg	gene	91085	91844	.	-	.	ID=gene-UL41-%232;Name=UL41-%232;gene=gene-UL41-%232
+NC_001806.2	tpg	mRNA	91085	91844	.	-	.	ID=UL41-%232;Note=UL41 RNA %232 %28encodes UL41 iORF%29;Parent=gene-UL41-%232;gbkey=mRNA;gene=gene-UL41-%232;product=UL41 %232;support=4
+NC_001806.2	tpg	exon	91085	91844	.	-	.	ID=exon-UL41-3-1;Note=encodes UL41 iORF;Parent=UL41-%232;gbkey=mRNA;gene=gene-UL41-%232;product=UL41 %232
+NC_001806.2	tpg	gene	91085	91877	.	-	.	ID=gene-UL41-%231;Name=UL41-%231;gene=gene-UL41-%231
+NC_001806.2	tpg	mRNA	91085	91877	.	-	.	ID=UL41-%231;Note=UL41 RNA %231 %28encodes UL41 iORF%29;Parent=gene-UL41-%231;gbkey=mRNA;gene=gene-UL41-%231;product=UL41 %231;support=3
+NC_001806.2	tpg	exon	91085	91877	.	-	.	ID=exon-UL41-2-1;Note=encodes UL41 iORF;Parent=UL41-%231;gbkey=mRNA;gene=gene-UL41-%231;product=UL41 %231
+NC_001806.2	tpg	gene	91085	92754	.	-	.	ID=gene-UL41;Name=UL41;gene=gene-UL41
+NC_001806.2	tpg	mRNA	91085	92754	.	-	.	ID=UL41;Note=UL41 RNA %28VHS%29;Parent=gene-UL41;gbkey=mRNA;gene=gene-UL41;product=UL41;support=5
+NC_001806.2	tpg	exon	91085	92754	.	-	.	ID=exon-UL41-1;Note=VHS;Parent=UL41;gbkey=mRNA;gene=gene-UL41;product=UL41
+NC_001806.2	tpg	gene	98709	100993	.	-	.	ID=gene-UL46;Name=UL46;gene=gene-UL46
+NC_001806.2	tpg	mRNA	98709	100993	.	-	.	ID=UL46;Note=UL46 RNA %28VP11/12%29;Parent=gene-UL46;gbkey=mRNA;gene=gene-UL46;product=UL46;support=9
+NC_001806.2	tpg	exon	98709	100993	.	-	.	ID=exon-UL46-UL47-3-1;Note=VP11/12;Parent=UL46;gbkey=mRNA;gene=gene-UL46;product=UL46
+NC_001806.2	tpg	gene	98709	103230	.	-	.	ID=gene-UL47-%231;Name=UL47-%231;gene=gene-UL47-%231
+NC_001806.2	tpg	mRNA	98709	103230	.	-	.	ID=UL47-%231;Note=UL47 RNA %231 %28VP13/14%29;Parent=gene-UL47-%231;gbkey=mRNA;gene=gene-UL47-%231;product=UL47 %231;support=2
+NC_001806.2	tpg	exon	98709	103230	.	-	.	ID=exon-UL46-UL47-2-1;Note=VP13/14;Parent=UL47-%231;gbkey=mRNA;gene=gene-UL47-%231;product=UL47 %231
+NC_001806.2	tpg	gene	98709	103310	.	-	.	ID=gene-UL47;Name=UL47;gene=gene-UL47
+NC_001806.2	tpg	mRNA	98709	103310	.	-	.	ID=UL47;Note=UL47 RNA %28VP13/14%29;Parent=gene-UL47;gbkey=mRNA;gene=gene-UL47;product=UL47;support=5
+NC_001806.2	tpg	exon	98709	103310	.	-	.	ID=exon-UL46-UL47-1;Note=VP13/14;Parent=UL47;gbkey=mRNA;gene=gene-UL47;product=UL47
+NC_001806.2	tpg	gene	103513	105151	.	-	.	ID=gene-UL48-%231;Name=UL48-%231;gene=gene-UL48-%231
+NC_001806.2	tpg	mRNA	103513	105151	.	-	.	ID=UL48-%231;Note=UL48 RNA %231 %28VP16%29;Parent=gene-UL48-%231;gbkey=mRNA;gene=gene-UL48-%231;product=UL48 %231;support=4
+NC_001806.2	tpg	exon	103513	105151	.	-	.	ID=exon-UL48-2-1;Note=VP16;Parent=UL48-%231;gbkey=mRNA;gene=gene-UL48-%231;product=UL48 %231
+NC_001806.2	tpg	gene	103513	105258	.	-	.	ID=gene-UL48;Name=UL48;gene=gene-UL48
+NC_001806.2	tpg	mRNA	103513	105258	.	-	.	ID=UL48;Note=UL48 RNA %28VP16%29;Parent=gene-UL48;gbkey=mRNA;gene=gene-UL48;product=UL48;support=6
+NC_001806.2	tpg	exon	103513	105258	.	-	.	ID=exon-UL48-1;Note=VP16;Parent=UL48;gbkey=mRNA;gene=gene-UL48;product=UL48
+NC_001806.2	tpg	gene	105441	106539	.	-	.	ID=gene-UL49;Name=UL49;gene=gene-UL49
+NC_001806.2	tpg	mRNA	105441	106539	.	-	.	ID=UL49;Note=UL49 RNA;Parent=gene-UL49;gbkey=mRNA;gene=gene-UL49;product=UL49;support=8
+NC_001806.2	tpg	exon	105441	106539	.	-	.	ID=exon-UL49-UL50.6-4-1;Parent=UL49;gbkey=mRNA;gene=gene-UL49;product=UL49
+NC_001806.2	tpg	gene	105441	107127	.	-	.	ID=gene-UL49.5;Name=UL49.5;gene=gene-UL49.5
+NC_001806.2	tpg	mRNA	105441	107127	.	-	.	ID=UL49.5;Note=UL49.5 RNA %28%3DUL49A%29;Parent=gene-UL49.5;gbkey=mRNA;gene=gene-UL49.5;product=UL49.5;support=6
+NC_001806.2	tpg	exon	105441	107127	.	-	.	ID=exon-UL49-UL50.6-3-1;Note=UL49A;Parent=UL49.5;gbkey=mRNA;gene=gene-UL49.5;product=UL49.5
+NC_001806.2	tpg	gene	105441	107583	.	-	.	ID=gene-UL50.5;Name=UL50.5;gene=gene-UL50.5
+NC_001806.2	tpg	mRNA	105441	107583	.	-	.	ID=UL50.5;Note=UL50.5 RNA;Parent=gene-UL50.5;gbkey=mRNA;gene=gene-UL50.5;product=UL50.5;support=3
+NC_001806.2	tpg	exon	105441	107583	.	-	.	ID=exon-UL49-UL50.6-2-1;Parent=UL50.5;gbkey=mRNA;gene=gene-UL50.5;product=UL50.5
+NC_001806.2	tpg	gene	105441	108171	.	-	.	ID=gene-UL50.6;Name=UL50.6;gene=gene-UL50.6
+NC_001806.2	tpg	mRNA	105441	108171	.	-	.	ID=UL50.6;Note=UL50.6 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL50.6 sORF.%5D;Parent=gene-UL50.6;gbkey=mRNA;gene=gene-UL50.6;product=UL50.6;support=1
+NC_001806.2	tpg	exon	105441	108171	.	-	.	ID=exon-UL49-UL50.6-1;Parent=UL50.6;gbkey=mRNA;gene=gene-UL50.6;product=UL50.6
+NC_001806.2	tpg	gene	108260	109168	.	-	.	ID=gene-UL51-%231;Name=UL51-%231;gene=gene-UL51-%231
+NC_001806.2	tpg	mRNA	108260	109168	.	-	.	ID=UL51-%231;Note=UL51 RNA %231;Parent=gene-UL51-%231;gbkey=mRNA;gene=gene-UL51-%231;product=UL51 %231;support=3
+NC_001806.2	tpg	exon	108260	109168	.	-	.	ID=exon-UL51-UL54.5-6-1;Parent=UL51-%231;gbkey=mRNA;gene=gene-UL51-%231;product=UL51 %231
+NC_001806.2	tpg	gene	108260	109303	.	-	.	ID=gene-UL51;Name=UL51;gene=gene-UL51
+NC_001806.2	tpg	mRNA	108260	109303	.	-	.	ID=UL51;Note=UL51 RNA;Parent=gene-UL51;gbkey=mRNA;gene=gene-UL51;product=UL51;support=7
+NC_001806.2	tpg	exon	108260	109303	.	-	.	ID=exon-UL51-UL54.5-5-1;Parent=UL51;gbkey=mRNA;gene=gene-UL51;product=UL51
+NC_001806.2	tpg	gene	108260	109736	.	-	.	ID=gene-UL52.4;Name=UL52.4;gene=gene-UL52.4
+NC_001806.2	tpg	mRNA	108260	109736	.	-	.	ID=UL52.4;Note=UL52.4 RNA %5BStrong peak in both dRNA-seq replicates. Required for expression of UL52.4 sORF.%5D;Parent=gene-UL52.4;gbkey=mRNA;gene=gene-UL52.4;product=UL52.4;support=1
+NC_001806.2	tpg	exon	108260	109736	.	-	.	ID=exon-UL51-UL54.5-4-1;Parent=UL52.4;gbkey=mRNA;gene=gene-UL52.4;product=UL52.4
+NC_001806.2	tpg	gene	108260	112132	.	-	.	ID=gene-UL52.5;Name=UL52.5;gene=gene-UL52.5
+NC_001806.2	tpg	mRNA	108260	112132	.	-	.	ID=UL52.5;Note=UL52.5 RNA;Parent=gene-UL52.5;gbkey=mRNA;gene=gene-UL52.5;product=UL52.5;support=5
+NC_001806.2	tpg	exon	108260	112132	.	-	.	ID=exon-UL51-UL54.5-3-1;Parent=UL52.5;gbkey=mRNA;gene=gene-UL52.5;product=UL52.5
+NC_001806.2	tpg	gene	108260	113090	.	-	.	ID=gene-UL53.5;Name=UL53.5;gene=gene-UL53.5
+NC_001806.2	tpg	mRNA	108260	113090	.	-	.	ID=UL53.5;Note=UL53.5 RNA;Parent=gene-UL53.5;gbkey=mRNA;gene=gene-UL53.5;product=UL53.5;support=4
+NC_001806.2	tpg	exon	108260	113090	.	-	.	ID=exon-UL51-UL54.5-2-1;Parent=UL53.5;gbkey=mRNA;gene=gene-UL53.5;product=UL53.5
+NC_001806.2	tpg	gene	108260	115846	.	-	.	ID=gene-UL54.5;Name=UL54.5;gene=gene-UL54.5
+NC_001806.2	tpg	mRNA	108260	115846	.	-	.	ID=UL54.5;Note=UL54.5 RNA %28orphan%29 %5BStrong peak in both cRNA-seq replicates as well as a weak kinetic change %28increase late in infection%29 in both replicates.%5D;Parent=gene-UL54.5;gbkey=mRNA;gene=gene-UL54.5;product=UL54.5;support=1
+NC_001806.2	tpg	exon	108260	115846	.	-	.	ID=exon-UL51-UL54.5-1;Note=orphan;Parent=UL54.5;gbkey=mRNA;gene=gene-UL54.5;product=UL54.5
+NC_001806.2	tpg	gene	116179	117084	.	-	.	ID=gene-UL56;Name=UL56;gene=gene-UL56
+NC_001806.2	tpg	mRNA	116179	117084	.	-	.	ID=UL56;Note=UL56 RNA;Parent=gene-UL56;gbkey=mRNA;gene=gene-UL56;product=UL56;support=6
+NC_001806.2	tpg	exon	116179	117084	.	-	.	ID=exon-UL56-IRL3-2-1;Parent=UL56;gbkey=mRNA;gene=gene-UL56;product=UL56
+NC_001806.2	tpg	gene	116179	117926	.	-	.	ID=gene-IRL3;Name=IRL3;gene=gene-IRL3
+NC_001806.2	tpg	mRNA	116179	117926	.	-	.	ID=IRL3;Note=IRL3 RNA %28orphan%29;Parent=gene-IRL3;gbkey=mRNA;gene=gene-IRL3;product=IRL3;support=2
+NC_001806.2	tpg	exon	116179	117926	.	-	.	ID=exon-UL56-IRL3-1;Note=orphan;Parent=IRL3;gbkey=mRNA;gene=gene-IRL3;product=IRL3
+NC_001806.2	tpg	gene	117999	118959	.	-	.	ID=gene-AL-RNA;Name=AL-RNA;gene=gene-AL-RNA
+NC_001806.2	tpg	mRNA	117999	118959	.	-	.	ID=AL-RNA;Note=AL-RNA %28Perng et al.%2C JVI 2002%2C not observed%29 %5BObserved by Perng et al.%2C JVI 2002. No evidence for this TiSS in our data.%5D;Parent=gene-AL-RNA;gbkey=mRNA;gene=gene-AL-RNA;product=AL-RNA;support=0
+NC_001806.2	tpg	exon	117999	118959	.	-	.	ID=exon-AL-RNA-1;Note=Perng et al.%2C JVI 2002%2C not observed;Parent=AL-RNA;gbkey=mRNA;gene=gene-AL-RNA;product=AL-RNA
+NC_001806.2	tpg	gene	120657	124256	.	-	.	ID=gene-IRL2-iso1;Name=IRL2-iso1;gene=gene-IRL2-iso1
+NC_001806.2	tpg	mRNA	120657	124256	.	-	.	ID=IRL2-iso1;Note=IRL2 RNA iso1 %28with retained intron 1%29;Parent=gene-IRL2-iso1;gbkey=mRNA;gene=gene-IRL2-iso1;product=IRL2 iso1;support=7
+NC_001806.2	tpg	exon	122624	124256	.	-	.	ID=exon-IRL2-IRL1-5-1;Note=with retained intron 1;Parent=IRL2-iso1;gbkey=mRNA;gene=gene-IRL2-iso1;product=IRL2 iso1
+NC_001806.2	tpg	exon	120657	122487	.	-	.	ID=exon-IRL2-IRL1-5-2;Note=with retained intron 1;Parent=IRL2-iso1;gbkey=mRNA;gene=gene-IRL2-iso1;product=IRL2 iso1
+NC_001806.2	tpg	gene	120657	124256	.	-	.	ID=gene-IRL2-iso2;Name=IRL2-iso2;gene=gene-IRL2-iso2
+NC_001806.2	tpg	mRNA	120657	124256	.	-	.	ID=IRL2-iso2;Note=IRL2 RNA iso2 %28NAGNAG%2C spliced%29;Parent=gene-IRL2-iso2;gbkey=mRNA;gene=gene-IRL2-iso2;product=IRL2 iso2;support=7
+NC_001806.2	tpg	exon	124056	124256	.	-	.	ID=exon-IRL2-IRL1-3-1;Note=NAGNAG%2C spliced;Parent=IRL2-iso2;gbkey=mRNA;gene=gene-IRL2-iso2;product=IRL2 iso2
+NC_001806.2	tpg	exon	122624	123290	.	-	.	ID=exon-IRL2-IRL1-3-2;Note=NAGNAG%2C spliced;Parent=IRL2-iso2;gbkey=mRNA;gene=gene-IRL2-iso2;product=IRL2 iso2
+NC_001806.2	tpg	exon	120657	122484	.	-	.	ID=exon-IRL2-IRL1-3-3;Note=NAGNAG%2C spliced;Parent=IRL2-iso2;gbkey=mRNA;gene=gene-IRL2-iso2;product=IRL2 iso2
+NC_001806.2	tpg	gene	120657	124256	.	-	.	ID=gene-IRL2;Name=IRL2;gene=gene-IRL2
+NC_001806.2	tpg	mRNA	120657	124256	.	-	.	ID=IRL2;Note=IRL2 RNA %28spliced%29;Parent=gene-IRL2;gbkey=mRNA;gene=gene-IRL2;product=IRL2;support=7
+NC_001806.2	tpg	exon	124056	124256	.	-	.	ID=exon-IRL2-IRL1-4-1;Note=spliced;Parent=IRL2;gbkey=mRNA;gene=gene-IRL2;product=IRL2
+NC_001806.2	tpg	exon	122624	123290	.	-	.	ID=exon-IRL2-IRL1-4-2;Note=spliced;Parent=IRL2;gbkey=mRNA;gene=gene-IRL2;product=IRL2
+NC_001806.2	tpg	exon	120657	122487	.	-	.	ID=exon-IRL2-IRL1-4-3;Note=spliced;Parent=IRL2;gbkey=mRNA;gene=gene-IRL2;product=IRL2
+NC_001806.2	tpg	gene	120657	124623	.	-	.	ID=gene-IRL1.5;Name=IRL1.5;gene=gene-IRL1.5
+NC_001806.2	tpg	mRNA	120657	124623	.	-	.	ID=IRL1.5;Note=IRL1.5 RNA %28spliced%29;Parent=gene-IRL1.5;gbkey=mRNA;gene=gene-IRL1.5;product=IRL1.5;support=5
+NC_001806.2	tpg	exon	124056	124623	.	-	.	ID=exon-IRL2-IRL1-2-1;Parent=IRL1.5;gbkey=mRNA;gene=gene-IRL1.5;product=IRL1.5
+NC_001806.2	tpg	exon	122624	123290	.	-	.	ID=exon-IRL2-IRL1-2-2;Parent=IRL1.5;gbkey=mRNA;gene=gene-IRL1.5;product=IRL1.5
+NC_001806.2	tpg	exon	120657	122487	.	-	.	ID=exon-IRL2-IRL1-2-3;Parent=IRL1.5;gbkey=mRNA;gene=gene-IRL1.5;product=IRL1.5
+NC_001806.2	tpg	gene	120657	125965	.	-	.	ID=gene-IRL1;Name=IRL1;gene=gene-IRL1
+NC_001806.2	tpg	mRNA	120657	125965	.	-	.	ID=IRL1;Note=IRL1 RNA %28spliced%29;Parent=gene-IRL1;gbkey=mRNA;gene=gene-IRL1;product=IRL1;support=4
+NC_001806.2	tpg	exon	124056	125965	.	-	.	ID=exon-IRL2-IRL1-1;Note=spliced;Parent=IRL1;gbkey=mRNA;gene=gene-IRL1;product=IRL1
+NC_001806.2	tpg	exon	122624	123290	.	-	.	ID=exon-IRL2-IRL1-2;Note=spliced;Parent=IRL1;gbkey=mRNA;gene=gene-IRL1;product=IRL1
+NC_001806.2	tpg	exon	120657	122487	.	-	.	ID=exon-IRL2-IRL1-3;Note=spliced;Parent=IRL1;gbkey=mRNA;gene=gene-IRL1;product=IRL1
+NC_001806.2	tpg	gene	127170	130841	.	-	.	ID=gene-IRS1-%231;Name=IRS1-%231;gene=gene-IRS1-%231
+NC_001806.2	tpg	mRNA	127170	130841	.	-	.	ID=IRS1-%231;Note=IRS1 RNA %231 %28orphan%2C may encode truncated isoform of IRS1 CDS%29;Parent=gene-IRS1-%231;gbkey=mRNA;gene=gene-IRS1-%231;product=IRS1 %231;support=2
+NC_001806.2	tpg	exon	127170	130841	.	-	.	ID=exon-IRS1-2-1;Note=orphan%3B may encode truncated isoform of IRS1;Parent=IRS1-%231;gbkey=mRNA;gene=gene-IRS1-%231;product=IRS1 %231
+NC_001806.2	tpg	gene	127170	131430	.	-	.	ID=gene-IRS1;Name=IRS1;gene=gene-IRS1
+NC_001806.2	tpg	mRNA	127170	131430	.	-	.	ID=IRS1;Note=IRS1 RNA;Parent=gene-IRS1;gbkey=mRNA;gene=gene-IRS1;product=IRS1;support=3
+NC_001806.2	tpg	exon	127170	131430	.	-	.	ID=exon-IRS1-1;Parent=IRS1;gbkey=mRNA;gene=gene-IRS1;product=IRS1
+NC_001806.2	tpg	gene	134021	135306	.	-	.	ID=gene-US2;Name=US2;gene=gene-US2
+NC_001806.2	tpg	mRNA	134021	135306	.	-	.	ID=US2;Note=US2 RNA;Parent=gene-US2;gbkey=mRNA;gene=gene-US2;product=US2;support=6
+NC_001806.2	tpg	exon	134021	135306	.	-	.	ID=exon-US2-US5.5-4-1;Parent=US2;gbkey=mRNA;gene=gene-US2;product=US2
+NC_001806.2	tpg	gene	134021	136668	.	-	.	ID=gene-US3.6;Name=US3.6;gene=gene-US3.6
+NC_001806.2	tpg	mRNA	134021	136668	.	-	.	ID=US3.6;Note=US3.6 RNA;Parent=gene-US3.6;gbkey=mRNA;gene=gene-US3.6;product=US3.6;support=2
+NC_001806.2	tpg	exon	134021	136668	.	-	.	ID=exon-US2-US5.5-3-1;Parent=US3.6;gbkey=mRNA;gene=gene-US3.6;product=US3.6
+NC_001806.2	tpg	gene	134021	137987	.	-	.	ID=gene-US5.1;Name=US5.1;gene=gene-US5.1
+NC_001806.2	tpg	mRNA	134021	137987	.	-	.	ID=US5.1;Note=US5.1 RNA %28Jovasevic %26 Roizman Virol J 2010. not observed in TiSS or PacBio data%3B orphan%29 %5BObserved by Jovasevic %26 Roizman Virol J 2010. No evidence for this TiSS in our data.%5D;Parent=gene-US5.1;gbkey=mRNA;gene=gene-US5.1;product=US5.1;support=0
+NC_001806.2	tpg	exon	134021	137987	.	-	.	ID=exon-US2-US5.5-2-1;Note=Jovasevic %26 Roizman Virol J 2010. not observed in TiSS or PacBio data%3B orphan;Parent=US5.1;gbkey=mRNA;gene=gene-US5.1;product=US5.1
+NC_001806.2	tpg	gene	134021	138911	.	-	.	ID=gene-US5.5;Name=US5.5;gene=gene-US5.5
+NC_001806.2	tpg	mRNA	134021	138911	.	-	.	ID=US5.5;Note=US5.5 RNA %28orphan%29;Parent=gene-US5.5;gbkey=mRNA;gene=gene-US5.5;product=US5.5;support=2
+NC_001806.2	tpg	exon	134021	138911	.	-	.	ID=exon-US2-US5.5-1;Note=orphan;Parent=US5.5;gbkey=mRNA;gene=gene-US5.5;product=US5.5
+NC_001806.2	tpg	gene	144123	145169	.	-	.	ID=gene-US10;Name=US10;gene=gene-US10
+NC_001806.2	tpg	mRNA	144123	145169	.	-	.	ID=US10;Note=US10 RNA;Parent=gene-US10;gbkey=mRNA;gene=gene-US10;product=US10;support=4
+NC_001806.2	tpg	exon	144123	145169	.	-	.	ID=exon-US10-US12-3-1;Parent=US10;gbkey=mRNA;gene=gene-US10;product=US10
+NC_001806.2	tpg	gene	144123	145462	.	-	.	ID=gene-US11;Name=US11;gene=gene-US11
+NC_001806.2	tpg	mRNA	144123	145462	.	-	.	ID=US11;Note=US11 RNA;Parent=gene-US11;gbkey=mRNA;gene=gene-US11;product=US11;support=6
+NC_001806.2	tpg	exon	144123	145462	.	-	.	ID=exon-US10-US12-2-1;Parent=US11;gbkey=mRNA;gene=gene-US11;product=US11
+NC_001806.2	tpg	gene	144123	146067	.	-	.	ID=gene-US12;Name=US12;gene=gene-US12
+NC_001806.2	tpg	mRNA	144123	146067	.	-	.	ID=US12;Note=US12 RNA %28spliced%29;Parent=gene-US12;gbkey=mRNA;gene=gene-US12;product=US12;support=5
+NC_001806.2	tpg	exon	145822	146067	.	-	.	ID=exon-US10-US12-1;Note=spliced;Parent=US12;gbkey=mRNA;gene=gene-US12;product=US12
+NC_001806.2	tpg	exon	144123	145653	.	-	.	ID=exon-US10-US12-2;Note=spliced;Parent=US12;gbkey=mRNA;gene=gene-US12;product=US12

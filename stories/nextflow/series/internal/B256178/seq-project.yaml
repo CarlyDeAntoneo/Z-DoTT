@@ -1,0 +1,1158 @@
+ind: MEF IAV batch 1 [B256178, JCC400]
+experiments:
+  - ind: '2360303'
+    sample: A1+E2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2360303-A1+E2-S21-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S21_L003_R1_001.fastq.gz
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S21_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360303-A1+E2-S21-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S21_L004_R1_001.fastq.gz
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S21_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360303-A1+E2-S49-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S49_L001_R1_001.fastq.gz
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S49_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360303-A1+E2-S49-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S49_L002_R1_001.fastq.gz
+            - fastq/2360303_JCC400_Feb2022_IAV_A1_S49_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_IgG-RIP_1
+  - ind: '2360304'
+    sample: B1+F2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - Z22 RIP
+      strandedness: R
+    runs:
+      - ind: 2360304-B1+F2-S22-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S22_L003_R1_001.fastq.gz
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S22_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360304-B1+F2-S22-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S22_L004_R1_001.fastq.gz
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S22_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360304-B1+F2-S50-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S50_L001_R1_001.fastq.gz
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S50_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360304-B1+F2-S50-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S50_L002_R1_001.fastq.gz
+            - fastq/2360304_JCC400_Feb2022_IAV_B1_S50_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_Z22-RIP_1
+  - ind: '2360305'
+    sample: C1+G2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - FLAG RIP
+      strandedness: R
+    runs:
+      - ind: 2360305-C1+G2-S5-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S5_L001_R1_001.fastq.gz
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S5_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360305-C1+G2-S5-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S5_L002_R1_001.fastq.gz
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S5_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360305-C1+G2-S51-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S51_L001_R1_001.fastq.gz
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S51_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360305-C1+G2-S51-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S51_L002_R1_001.fastq.gz
+            - fastq/2360305_JCC400_Feb2022_IAV_C1_S51_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_FLAG-RIP_1
+  - ind: '2360306'
+    sample: D1+H2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2360306-D1+H2-S52-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S52_L001_R1_001.fastq.gz
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S52_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360306-D1+H2-S52-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S52_L002_R1_001.fastq.gz
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S52_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360306-D1+H2-S6-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S6_L001_R1_001.fastq.gz
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S6_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360306-D1+H2-S6-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S6_L002_R1_001.fastq.gz
+            - fastq/2360306_JCC400_Feb2022_IAV_D1_S6_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_IgG-RIP_1
+  - ind: '2360307'
+    sample: E1+A3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - Z22 RIP
+      strandedness: R
+    runs:
+      - ind: 2360307-E1+A3-S53-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S53_L001_R1_001.fastq.gz
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S53_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360307-E1+A3-S53-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S53_L002_R1_001.fastq.gz
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S53_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360307-E1+A3-S7-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S7_L001_R1_001.fastq.gz
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S7_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360307-E1+A3-S7-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S7_L002_R1_001.fastq.gz
+            - fastq/2360307_JCC400_Feb2022_IAV_E1_S7_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_Z22-RIP_1
+  - ind: '2360308'
+    sample: F1+B3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - FLAG RIP
+      strandedness: R
+    runs:
+      - ind: 2360308-F1+B3-S54-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S54_L001_R1_001.fastq.gz
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S54_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360308-F1+B3-S54-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S54_L002_R1_001.fastq.gz
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S54_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360308-F1+B3-S8-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S8_L001_R1_001.fastq.gz
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S8_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360308-F1+B3-S8-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S8_L002_R1_001.fastq.gz
+            - fastq/2360308_JCC400_Feb2022_IAV_F1_S8_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_FLAG-RIP_1
+  - ind: '2360309'
+    sample: G1+C3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2360309-G1+C3-S23-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S23_L003_R1_001.fastq.gz
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S23_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360309-G1+C3-S23-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S23_L004_R1_001.fastq.gz
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S23_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360309-G1+C3-S55-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S55_L001_R1_001.fastq.gz
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S55_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360309-G1+C3-S55-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S55_L002_R1_001.fastq.gz
+            - fastq/2360309_JCC400_Feb2022_IAV_G1_S55_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_IgG-RIP_2
+  - ind: '2360310'
+    sample: H1+D3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - Z22 RIP
+      strandedness: R
+    runs:
+      - ind: 2360310-H1+D3-S24-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S24_L003_R1_001.fastq.gz
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S24_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360310-H1+D3-S24-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S24_L004_R1_001.fastq.gz
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S24_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360310-H1+D3-S56-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S56_L001_R1_001.fastq.gz
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S56_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360310-H1+D3-S56-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S56_L002_R1_001.fastq.gz
+            - fastq/2360310_JCC400_Feb2022_IAV_H1_S56_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_Z22-RIP_2
+  - ind: '2360311'
+    sample: A2+E3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - FLAG RIP
+      strandedness: R
+    runs:
+      - ind: 2360311-A2+E3-S57-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S57_L001_R1_001.fastq.gz
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S57_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360311-A2+E3-S57-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S57_L002_R1_001.fastq.gz
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S57_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360311-A2+E3-S9-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S9_L001_R1_001.fastq.gz
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S9_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360311-A2+E3-S9-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S9_L002_R1_001.fastq.gz
+            - fastq/2360311_JCC400_Feb2022_IAV_A2_S9_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_FLAG-RIP_2
+  - ind: '2360312'
+    sample: B2+F3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2360312-B2+F3-S10-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S10_L001_R1_001.fastq.gz
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S10_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360312-B2+F3-S10-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S10_L002_R1_001.fastq.gz
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S10_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360312-B2+F3-S58-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S58_L001_R1_001.fastq.gz
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S58_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360312-B2+F3-S58-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S58_L002_R1_001.fastq.gz
+            - fastq/2360312_JCC400_Feb2022_IAV_B2_S58_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_IgG-RIP_2
+  - ind: '2360313'
+    sample: C2+G3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - Z22 RIP
+      strandedness: R
+    runs:
+      - ind: 2360313-C2+G3-S11-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S11_L001_R1_001.fastq.gz
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S11_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360313-C2+G3-S11-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S11_L002_R1_001.fastq.gz
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S11_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360313-C2+G3-S59-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S59_L001_R1_001.fastq.gz
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S59_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360313-C2+G3-S59-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S59_L002_R1_001.fastq.gz
+            - fastq/2360313_JCC400_Feb2022_IAV_C2_S59_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_Z22-RIP_2
+  - ind: '2360314'
+    sample: D2+H3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - FLAG RIP
+      strandedness: R
+    runs:
+      - ind: 2360314-D2+H3-S12-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S12_L001_R1_001.fastq.gz
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S12_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360314-D2+H3-S12-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S12_L002_R1_001.fastq.gz
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S12_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360314-D2+H3-S60-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S60_L001_R1_001.fastq.gz
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S60_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360314-D2+H3-S60-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S60_L002_R1_001.fastq.gz
+            - fastq/2360314_JCC400_Feb2022_IAV_D2_S60_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_FLAG-RIP_2
+  - ind: '2360315'
+    sample: A1+E2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360315-A1+E2-S25-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S25_L003_R1_001.fastq.gz
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S25_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360315-A1+E2-S25-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S25_L004_R1_001.fastq.gz
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S25_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360315-A1+E2-S61-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S61_L001_R1_001.fastq.gz
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S61_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360315-A1+E2-S61-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S61_L002_R1_001.fastq.gz
+            - fastq/2360315_JCC400_Feb2022_IAV_E2_S61_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2360316'
+    sample: B1+F2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360316-B1+F2-S13-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S13_L001_R1_001.fastq.gz
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S13_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360316-B1+F2-S13-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S13_L002_R1_001.fastq.gz
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S13_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360316-B1+F2-S62-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S62_L001_R1_001.fastq.gz
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S62_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360316-B1+F2-S62-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S62_L002_R1_001.fastq.gz
+            - fastq/2360316_JCC400_Feb2022_IAV_F2_S62_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2360317'
+    sample: C1+G2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360317-C1+G2-S14-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S14_L001_R1_001.fastq.gz
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S14_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360317-C1+G2-S14-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S14_L002_R1_001.fastq.gz
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S14_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360317-C1+G2-S63-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S63_L001_R1_001.fastq.gz
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S63_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360317-C1+G2-S63-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S63_L002_R1_001.fastq.gz
+            - fastq/2360317_JCC400_Feb2022_IAV_G2_S63_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2360318'
+    sample: D1+H2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360318-D1+H2-S64-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360318_JCC400_Feb2022_IAV_H2_S64_L001_R1_001.fastq.gz
+            - fastq/2360318_JCC400_Feb2022_IAV_H2_S64_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360318-D1+H2-S64-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360318_JCC400_Feb2022_IAV_H2_S64_L002_R1_001.fastq.gz
+            - fastq/2360318_JCC400_Feb2022_IAV_H2_S64_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_1
+  - ind: '2360319'
+    sample: E1+A3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360319-E1+A3-S26-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S26_L003_R1_001.fastq.gz
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S26_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360319-E1+A3-S26-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S26_L004_R1_001.fastq.gz
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S26_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360319-E1+A3-S65-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S65_L001_R1_001.fastq.gz
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S65_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360319-E1+A3-S65-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S65_L002_R1_001.fastq.gz
+            - fastq/2360319_JCC400_Feb2022_IAV_A3_S65_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_1
+  - ind: '2360320'
+    sample: F1+B3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360320-F1+B3-S15-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S15_L001_R1_001.fastq.gz
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S15_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360320-F1+B3-S15-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S15_L002_R1_001.fastq.gz
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S15_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360320-F1+B3-S66-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S66_L001_R1_001.fastq.gz
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S66_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360320-F1+B3-S66-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S66_L002_R1_001.fastq.gz
+            - fastq/2360320_JCC400_Feb2022_IAV_B3_S66_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_1
+  - ind: '2360321'
+    sample: G1+C3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360321-G1+C3-S27-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S27_L003_R1_001.fastq.gz
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S27_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360321-G1+C3-S27-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S27_L004_R1_001.fastq.gz
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S27_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360321-G1+C3-S67-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S67_L001_R1_001.fastq.gz
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S67_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360321-G1+C3-S67-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S67_L002_R1_001.fastq.gz
+            - fastq/2360321_JCC400_Feb2022_IAV_C3_S67_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2360322'
+    sample: H1+D3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360322-H1+D3-S28-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S28_L003_R1_001.fastq.gz
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S28_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360322-H1+D3-S28-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S28_L004_R1_001.fastq.gz
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S28_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360322-H1+D3-S68-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S68_L001_R1_001.fastq.gz
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S68_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360322-H1+D3-S68-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S68_L002_R1_001.fastq.gz
+            - fastq/2360322_JCC400_Feb2022_IAV_D3_S68_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2360323'
+    sample: A2+E3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360323-A2+E3-S16-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S16_L001_R1_001.fastq.gz
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S16_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360323-A2+E3-S16-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S16_L002_R1_001.fastq.gz
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S16_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360323-A2+E3-S69-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S69_L001_R1_001.fastq.gz
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S69_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360323-A2+E3-S69-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S69_L002_R1_001.fastq.gz
+            - fastq/2360323_JCC400_Feb2022_IAV_E3_S69_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2360324'
+    sample: B2+F3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360324-B2+F3-S29-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S29_L003_R1_001.fastq.gz
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S29_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360324-B2+F3-S29-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S29_L004_R1_001.fastq.gz
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S29_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360324-B2+F3-S70-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S70_L001_R1_001.fastq.gz
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S70_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360324-B2+F3-S70-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S70_L002_R1_001.fastq.gz
+            - fastq/2360324_JCC400_Feb2022_IAV_F3_S70_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_2
+  - ind: '2360325'
+    sample: C2+G3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360325-C2+G3-S30-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S30_L003_R1_001.fastq.gz
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S30_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360325-C2+G3-S30-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S30_L004_R1_001.fastq.gz
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S30_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360325-C2+G3-S71-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S71_L001_R1_001.fastq.gz
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S71_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360325-C2+G3-S71-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S71_L002_R1_001.fastq.gz
+            - fastq/2360325_JCC400_Feb2022_IAV_G3_S71_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_2
+  - ind: '2360326'
+    sample: D2+H3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2360326-D2+H3-S31-L003
+        layout:
+          type: paired
+          files:
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S31_L003_R1_001.fastq.gz
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S31_L003_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360326-D2+H3-S31-L004
+        layout:
+          type: paired
+          files:
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S31_L004_R1_001.fastq.gz
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S31_L004_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360326-D2+H3-S72-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S72_L001_R1_001.fastq.gz
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S72_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2360326-D2+H3-S72-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S72_L002_R1_001.fastq.gz
+            - fastq/2360326_JCC400_Feb2022_IAV_H3_S72_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_IAV_input_2
+samples:
+  - ind: A1+E2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: A2+E3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+  - ind: B1+F2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: B2+F3
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '2'
+  - ind: C1+G2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: C2+G3
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '2'
+  - ind: D1+H2
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '1'
+  - ind: D2+H3
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '2'
+  - ind: E1+A3
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '1'
+  - ind: F1+B3
+    organism:
+      - Mus musculus
+      - Influenza A virus
+    attributes:
+      cells: MEF
+      treatment: IAV
+      time-point: 8h
+      IAV: PR8
+      replica: '1'
+  - ind: G1+C3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+  - ind: H1+D3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+description: null

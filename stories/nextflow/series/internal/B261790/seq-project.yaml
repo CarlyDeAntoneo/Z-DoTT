@@ -1,0 +1,674 @@
+ind: MEF HSV-1 batch 1 [B261790, JCC411]
+experiments:
+  - ind: '2393115'
+    sample: A1+E2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2393115-A1+E2-S1-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393115_JCC411_April2022_HSV_A1_S1_L001_R1_001.fastq.gz
+            - fastq/2393115_JCC411_April2022_HSV_A1_S1_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393115-A1+E2-S1-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393115_JCC411_April2022_HSV_A1_S1_L002_R1_001.fastq.gz
+            - fastq/2393115_JCC411_April2022_HSV_A1_S1_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_IgG-RIP_1
+  - ind: '2393116'
+    sample: B1+F2
+    library:
+      source:
+        - RNA
+      selection:
+        - Z22 RIP
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393116-B1+F2-S2-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393116_JCC411_April2022_HSV_B1_S2_L001_R1_001.fastq.gz
+            - fastq/2393116_JCC411_April2022_HSV_B1_S2_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393116-B1+F2-S2-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393116_JCC411_April2022_HSV_B1_S2_L002_R1_001.fastq.gz
+            - fastq/2393116_JCC411_April2022_HSV_B1_S2_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_Z22-RIP_1
+  - ind: '2393118'
+    sample: D1+H2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2393118-D1+H2-S4-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393118_JCC411_April2022_HSV_D1_S4_L001_R1_001.fastq.gz
+            - fastq/2393118_JCC411_April2022_HSV_D1_S4_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393118-D1+H2-S4-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393118_JCC411_April2022_HSV_D1_S4_L002_R1_001.fastq.gz
+            - fastq/2393118_JCC411_April2022_HSV_D1_S4_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_IgG-RIP_1
+  - ind: '2393119'
+    sample: E1+A3
+    library:
+      source:
+        - RNA
+      selection:
+        - Z22 RIP
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393119-E1+A3-S5-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393119_JCC411_April2022_HSV_E1_S5_L001_R1_001.fastq.gz
+            - fastq/2393119_JCC411_April2022_HSV_E1_S5_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393119-E1+A3-S5-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393119_JCC411_April2022_HSV_E1_S5_L002_R1_001.fastq.gz
+            - fastq/2393119_JCC411_April2022_HSV_E1_S5_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_Z22-RIP_1
+  - ind: '2393121'
+    sample: G1+C3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2393121-G1+C3-S7-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393121_JCC411_April2022_HSV_G1_S7_L001_R1_001.fastq.gz
+            - fastq/2393121_JCC411_April2022_HSV_G1_S7_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393121-G1+C3-S7-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393121_JCC411_April2022_HSV_G1_S7_L002_R1_001.fastq.gz
+            - fastq/2393121_JCC411_April2022_HSV_G1_S7_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_IgG-RIP_2
+  - ind: '2393122'
+    sample: H1+D3
+    library:
+      source:
+        - RNA
+      selection:
+        - Z22 RIP
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393122-H1+D3-S8-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393122_JCC411_April2022_HSV_H1_S8_L001_R1_001.fastq.gz
+            - fastq/2393122_JCC411_April2022_HSV_H1_S8_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393122-H1+D3-S8-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393122_JCC411_April2022_HSV_H1_S8_L002_R1_001.fastq.gz
+            - fastq/2393122_JCC411_April2022_HSV_H1_S8_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_Z22-RIP_2
+  - ind: '2393124'
+    sample: B2+F3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+        - IgG RIP
+      strandedness: R
+    runs:
+      - ind: 2393124-B2+F3-S10-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393124_JCC411_April2022_HSV_B2_S10_L001_R1_001.fastq.gz
+            - fastq/2393124_JCC411_April2022_HSV_B2_S10_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393124-B2+F3-S10-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393124_JCC411_April2022_HSV_B2_S10_L002_R1_001.fastq.gz
+            - fastq/2393124_JCC411_April2022_HSV_B2_S10_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_IgG-RIP_2
+  - ind: '2393125'
+    sample: C2+G3
+    library:
+      source:
+        - RNA
+      selection:
+        - Z22 RIP
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393125-C2+G3-S11-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393125_JCC411_April2022_HSV_C2_S11_L001_R1_001.fastq.gz
+            - fastq/2393125_JCC411_April2022_HSV_C2_S11_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393125-C2+G3-S11-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393125_JCC411_April2022_HSV_C2_S11_L002_R1_001.fastq.gz
+            - fastq/2393125_JCC411_April2022_HSV_C2_S11_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_Z22-RIP_2
+  - ind: '2393127'
+    sample: A1+E2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393127-A1+E2-S13-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393127_JCC411_April2022_HSV_E2_S13_L001_R1_001.fastq.gz
+            - fastq/2393127_JCC411_April2022_HSV_E2_S13_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393127-A1+E2-S13-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393127_JCC411_April2022_HSV_E2_S13_L002_R1_001.fastq.gz
+            - fastq/2393127_JCC411_April2022_HSV_E2_S13_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2393128'
+    sample: B1+F2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393128-B1+F2-S14-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393128_JCC411_April2022_HSV_F2_S14_L001_R1_001.fastq.gz
+            - fastq/2393128_JCC411_April2022_HSV_F2_S14_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393128-B1+F2-S14-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393128_JCC411_April2022_HSV_F2_S14_L002_R1_001.fastq.gz
+            - fastq/2393128_JCC411_April2022_HSV_F2_S14_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2393129'
+    sample: C1+G2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393129-C1+G2-S15-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393129_JCC411_April2022_HSV_G2_S15_L001_R1_001.fastq.gz
+            - fastq/2393129_JCC411_April2022_HSV_G2_S15_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393129-C1+G2-S15-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393129_JCC411_April2022_HSV_G2_S15_L002_R1_001.fastq.gz
+            - fastq/2393129_JCC411_April2022_HSV_G2_S15_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_1
+  - ind: '2393130'
+    sample: D1+H2
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393130-D1+H2-S16-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393130_JCC411_April2022_HSV_H2_S16_L001_R1_001.fastq.gz
+            - fastq/2393130_JCC411_April2022_HSV_H2_S16_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393130-D1+H2-S16-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393130_JCC411_April2022_HSV_H2_S16_L002_R1_001.fastq.gz
+            - fastq/2393130_JCC411_April2022_HSV_H2_S16_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_1
+  - ind: '2393131'
+    sample: E1+A3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393131-E1+A3-S17-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393131_JCC411_April2022_HSV_A3_S17_L001_R1_001.fastq.gz
+            - fastq/2393131_JCC411_April2022_HSV_A3_S17_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393131-E1+A3-S17-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393131_JCC411_April2022_HSV_A3_S17_L002_R1_001.fastq.gz
+            - fastq/2393131_JCC411_April2022_HSV_A3_S17_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_1
+  - ind: '2393132'
+    sample: F1+B3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393132-F1+B3-S18-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393132_JCC411_April2022_HSV_B3_S18_L001_R1_001.fastq.gz
+            - fastq/2393132_JCC411_April2022_HSV_B3_S18_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393132-F1+B3-S18-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393132_JCC411_April2022_HSV_B3_S18_L002_R1_001.fastq.gz
+            - fastq/2393132_JCC411_April2022_HSV_B3_S18_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_1
+  - ind: '2393133'
+    sample: G1+C3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393133-G1+C3-S19-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393133_JCC411_April2022_HSV_C3_S19_L001_R1_001.fastq.gz
+            - fastq/2393133_JCC411_April2022_HSV_C3_S19_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393133-G1+C3-S19-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393133_JCC411_April2022_HSV_C3_S19_L002_R1_001.fastq.gz
+            - fastq/2393133_JCC411_April2022_HSV_C3_S19_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2393134'
+    sample: H1+D3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393134-H1+D3-S20-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393134_JCC411_April2022_HSV_D3_S20_L001_R1_001.fastq.gz
+            - fastq/2393134_JCC411_April2022_HSV_D3_S20_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393134-H1+D3-S20-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393134_JCC411_April2022_HSV_D3_S20_L002_R1_001.fastq.gz
+            - fastq/2393134_JCC411_April2022_HSV_D3_S20_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2393135'
+    sample: A2+E3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393135-A2+E3-S21-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393135_JCC411_April2022_HSV_E3_S21_L001_R1_001.fastq.gz
+            - fastq/2393135_JCC411_April2022_HSV_E3_S21_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393135-A2+E3-S21-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393135_JCC411_April2022_HSV_E3_S21_L002_R1_001.fastq.gz
+            - fastq/2393135_JCC411_April2022_HSV_E3_S21_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_mock_input_2
+  - ind: '2393136'
+    sample: B2+F3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393136-B2+F3-S22-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393136_JCC411_April2022_HSV_F3_S22_L001_R1_001.fastq.gz
+            - fastq/2393136_JCC411_April2022_HSV_F3_S22_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393136-B2+F3-S22-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393136_JCC411_April2022_HSV_F3_S22_L002_R1_001.fastq.gz
+            - fastq/2393136_JCC411_April2022_HSV_F3_S22_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_2
+  - ind: '2393137'
+    sample: C2+G3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393137-C2+G3-S23-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393137_JCC411_April2022_HSV_G3_S23_L001_R1_001.fastq.gz
+            - fastq/2393137_JCC411_April2022_HSV_G3_S23_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393137-C2+G3-S23-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393137_JCC411_April2022_HSV_G3_S23_L002_R1_001.fastq.gz
+            - fastq/2393137_JCC411_April2022_HSV_G3_S23_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_2
+  - ind: '2393138'
+    sample: D2+H3
+    library:
+      source:
+        - RNA
+      selection:
+        - Total RNA
+        - rRNA depletion
+      strandedness: R
+    runs:
+      - ind: 2393138-D2+H3-S42-L001
+        layout:
+          type: paired
+          files:
+            - fastq/2393138_JCC411_April2022_HSV_H3_S42_L001_R1_001.fastq.gz
+            - fastq/2393138_JCC411_April2022_HSV_H3_S42_L001_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+      - ind: 2393138-D2+H3-S42-L002
+        layout:
+          type: paired
+          files:
+            - fastq/2393138_JCC411_April2022_HSV_H3_S42_L002_R1_001.fastq.gz
+            - fastq/2393138_JCC411_April2022_HSV_H3_S42_L002_R2_001.fastq.gz
+          orientation: I
+        machine: Illumina NovaSeq 6000
+    attributes:
+      title: MEF_HSV-1_input_2
+samples:
+  - ind: A1+E2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: A2+E3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+  - ind: B1+F2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: B2+F3
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '2'
+  - ind: C1+G2
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '1'
+  - ind: C2+G3
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '2'
+  - ind: D1+H2
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '1'
+  - ind: D2+H3
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '2'
+  - ind: E1+A3
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '1'
+  - ind: F1+B3
+    organism:
+      - Herpes simplex virus 1
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: HSV-1
+      time-point: 8h
+      HSV-1: F strain[VR-733]
+      replica: '1'
+  - ind: G1+C3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+  - ind: H1+D3
+    organism:
+      - Mus musculus
+    attributes:
+      cells: MEF
+      treatment: mock
+      replica: '2'
+description: null
