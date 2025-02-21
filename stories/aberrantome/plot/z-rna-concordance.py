@@ -31,7 +31,7 @@ SIZE = {
 workloads = pd.read_pickle(ld.WORKLOAD)
 for name, iav, hsv in [
     ("Z-RNA[GRCm39]", "MEF: IAV vs mock", "MEF: HSV-1 vs mock"),
-    ("Z-RNA[CHM13v2]", "HT-29: HSV-1 vs mock", "HT-29: IAV vs mock")
+    ("Z-RNA[CHM13v2]", "HT-29: IAV vs mock", "HT-29: HSV-1 vs mock")
 ]:
     # Select and merge estimated downstream transcription rates for IAV and HSV-1 infections
     iav = workloads[iav].aberrantome["Downstream"][['Ensembl ID', 'Name', 'Score [trt]', 'label']]
@@ -98,7 +98,7 @@ for name, iav, hsv in [
     # Regression line
     sns.regplot(
         data=df, x=X, y=Y, ax=jointplot.ax_joint, truncate=False,
-        scatter=False, color='black', ci=95, line_kws={"lw": 1}, robust=False
+        scatter=False, color='black', ci=95, line_kws={"lw": 1}, robust=True
     )
 
     offset = ld.config.threshold.delta
@@ -107,13 +107,15 @@ for name, iav, hsv in [
 
     points = ((df[X] - df[Y]).abs() <= offset).mean()
     jointplot.ax_joint.text(
-        0.99, 0.99, f'|diff| <= {offset} = {points:.1%}', va='top', ha='right', transform=jointplot.ax_joint.transAxes)
+        0.99, 0.99, f'|diff| <= {offset} = {points:.1%}',
+        va='top', ha='right', transform=jointplot.ax_joint.transAxes
+    )
 
     # Ticks and limits
     jointplot.ax_joint.set(
         xlim=(0, limit), ylim=(0, limit),
-        xticks=[0, 0.25, 0.5], xticklabels=[0, 25, 50],
-        yticks=[0, 0.25, 0.5], yticklabels=[0, 25, 50],
+        xticks=[0, 0.1, 0.2, 0.3, 0.4, 0.5], xticklabels=[0, 10, 20, 30, 40, 50],
+        yticks=[0, 0.1, 0.2, 0.3, 0.4, 0.5], yticklabels=[0, 10, 20, 30, 40, 50],
     )
 
     # Legend
@@ -151,9 +153,7 @@ for name, iav, hsv in [
     print()
 
     # jointplot.fig.show()
-
-    saveto = ld.RESULTS / f"Z-RNA concordance {name}.svg"
-    saveto.parent.mkdir(parents=True, exist_ok=True)
-    jointplot.fig.savefig(saveto, bbox_inches="tight", pad_inches=0, transparent=True, dpi=400)
-
+    for format in ['png', 'svg']:
+        saveto = ld.RESULTS / f"Z-RNA concordance {name}.{format}"
+        jointplot.fig.savefig(saveto, bbox_inches="tight", pad_inches=0, transparent=True, dpi=400)
     plt.close(jointplot.fig)
