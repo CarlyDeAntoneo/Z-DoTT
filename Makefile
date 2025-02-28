@@ -5,8 +5,8 @@
 
 # Use bash syntax everywhere
 SHELL := $(shell which bash)
-# Fail on error, pipefail, and undefined variables
-.SHELLFLAGS := -eu -o pipefail -c
+# Interactive sessions (to properly register micromamba) with extra strictness (fail on errors/pipefails)
+.SHELLFLAGS := -i -e -o pipefail -c
 # Delete target if command fails
 .DELETE_ON_ERROR:
 
@@ -17,8 +17,6 @@ MAKEFLAGS += --no-builtin-rules
 
 # Common setup command for activating the environment
 define ACTIVATE_ENV
-source ~/.bashrc
-eval "$$(micromamba shell hook --shell bash)"
 micromamba activate zdott
 export PYTHONPATH="$$(pwd)"
 endef
