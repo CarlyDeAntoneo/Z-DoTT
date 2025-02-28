@@ -50,7 +50,7 @@ setup/pre-mapping:
 setup/nextflow-indices:
 	$(ACTIVATE_ENV)
 	ASSEMBLIES="$$(pwd)/assemblies"
-	PREMAPPING="$$(pwd)/setup/pre-mapping/results/"
+	PREMAPPING="$$(pwd)/setup/pre-mapping/results"
 	cd stories/nextflow/resources
 
 	mkdir -p indexes/GRCm39 indexes/CHM13v2
