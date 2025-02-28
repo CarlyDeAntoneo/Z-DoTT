@@ -13,7 +13,13 @@ execution via `make <target>` from the repository's root directory.
 - [Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) (tested with v2.0.2)
 - HPC cluster with the [Slurm](https://slurm.schedmd.com/quickstart.html) scheduler
 
-**Note:** Rust is not included in the Micromamba environment to avoid dependency conflicts.
+**Notes:**
+
+* Rust is not included in the Micromamba environment to avoid dependency conflicts.
+* System-wide installations or HPC modules for Micromamba and Rust have not been tested. Please install them locally for
+  the specific user to avoid potential conflicts.
+* Running Micromamba from inside a conda environment does not work. Ensure that all conda environments are deactivated
+  before calling `make <target>`.
 
 ---
 
@@ -58,7 +64,7 @@ Public sequencing data can be downloaded using the [`nf-core/fetchngs`](https://
 example, to download data for *PRJNA256013*:
 
 ```bash
-micromamba activate -n zdott
+micromamba activate zdott
 cd stories/nextflow/series/SRA/PRJNA256013/fastq
 nextflow run \
     -r 7544cb9297a0db754120bd1cb8d7df4586a60610 \
@@ -78,7 +84,9 @@ mv results/fastq/*.fastq.gz .
 rm -rf work results .nextflow*
 ```
 
-Newly generated data will be released upon publication and made accessible via SRA/ENA.
+Similarly, data can be downloaded for other public sequencing projects in the `stories/nextflow/series/SRA folder`.
+Newly generated data in `stories/nextflow/series/internal` will be released upon publication and made equivalently
+accessible via SRA/ENA.
 
 ---
 
@@ -88,10 +96,11 @@ A custom fork of the [`nf-core/rnaseq`](https://github.com/nf-core/rnaseq) pipel
 including alignment, quality control, and RNA abundance estimation. This fork features minor modifications, such as
 additional pre-mapping functionality and improved resource management.
 
-To process each sequencing experiment, navigate to its corresponding directory under `stories/nextflow/series/` and run:
+To process each sequencing experiment, navigate to its corresponding directory under `stories/nextflow/series/SRA` or
+`stories/nextflow/series/internal` and run:
 
 ```bash
-micromamba activate -n zdott
+micromamba activate zdott
 nextflow run \
     -c resources/nextflow.config \
     -params-file resources/params.yaml \
@@ -103,6 +112,9 @@ nextflow run \
 # Optionally, clean up the directory
 # rm -rf work .nextflow*
 ```
+
+All experiments in `series/SRA` and `series/internal` directories should be processed before proceeding with the
+downstream analyses.
 
 ---
 
