@@ -7,7 +7,7 @@ import ld
 
 plt.rcParams['svg.fonttype'] = 'none'
 
-for table in ld.TABLES.iterdir():
+for table in ld.TABLES.glob("*.pkl"):
     ind = table.stem
     df = pd.read_pickle(table)
 

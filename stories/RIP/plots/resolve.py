@@ -35,25 +35,6 @@ for config in annotation.ld.Config.load():
     df.loc[mask, 'Gene name'] = df.loc[mask, 'Gene name [auto]']
     df.loc[mask, 'Ensembl ID'] = df.loc[mask, 'Ensembl ID [auto]']
 
-    # df['location [manual]'] = df['location [manual]'].apply(lambda x: ld.c.locations.mapping.get(x, x))
-    # df['location [auto]'] = df['location [auto]'].apply(lambda x: ld.c.locations.mapping.get(x, x))
-    #
-    # mask = df['location [manual]'].notnull() & (df['location [auto]'] != df['location [manual]']) & (
-    #         df['location [auto]'] == 'Intronic') & (df['location [manual]'] != 'Intronic')
-    # print(df.loc[mask, ['Gene name [manual]', 'location [manual]', 'Gene name [auto]', 'location [auto]']])
-    #
-    # mask = df['location [manual]'].notnull() & \
-    #        (df['location [auto]'] == df['location [manual]']) & (df['Gene name [auto]'] == df['Gene name [manual]'])
-    # print(df.loc[mask, ['Gene name [manual]', 'location [manual]', 'Gene name [auto]', 'location [auto]']])
-    # drop_manual = set(df.loc[mask, 'Gene name [manual]'])
-    #
-    # mask = df['location [manual]'].notnull() & \
-    #        (df['location [auto]'] == df['location [manual]']) & (df['Gene name [auto]'] != df['Gene name [manual]'])
-    # print(df.loc[mask, ['Gene name [manual]', 'location [manual]', 'Gene name [auto]', 'location [auto]']])
-    # dont_drop_manual = set(df.loc[mask, 'Gene name [manual]'])
-    #
-    # drop_manual - dont_drop_manual
-
     # Mark clusters induced during the IAV/HSV-1 infection (in Z22 RIP or input)
     inducible = ld.c.inducible[config.ind]
     df = ld.resolve.virus_induction(
@@ -93,5 +74,6 @@ for config in annotation.ld.Config.load():
         'HSV-1 induced & FLAG enriched', 'IAV induced & FLAG enriched',
     ]]
 
-    # Save the table
+    # Save the tables
     df.to_pickle(SAVETO / f"{config.ind}.pkl")
+    df.to_csv(SAVETO / f"{config.ind}.csv")

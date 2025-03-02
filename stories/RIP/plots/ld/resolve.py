@@ -10,7 +10,7 @@ def sequence(
         weights: dict[tuple[str, str] | tuple[tuple[str, str], tuple[str, str]], float]
 ) -> tuple[str, str]:
     assert all(v > 0 for v in weights.values()), weights
-    assert abs(sum(weights.values()) - 1) < 1e3, weights
+    assert abs(sum(weights.values()) - 1) < 1e-3, weights
 
     resolved = defaultdict(float)
     for k, v in weights.items():
