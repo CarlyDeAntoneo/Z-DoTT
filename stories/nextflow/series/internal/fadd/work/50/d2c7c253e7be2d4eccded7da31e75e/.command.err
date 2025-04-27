@@ -1,0 +1,5 @@
+INFO:    Environment variable SINGULARITYENV_TMPDIR is set, but APPTAINERENV_TMPDIR is preferred
+INFO:    Environment variable SINGULARITYENV_NXF_TASK_WORKDIR is set, but APPTAINERENV_NXF_TASK_WORKDIR is preferred
+INFO:    Environment variable SINGULARITYENV_NXF_DEBUG is set, but APPTAINERENV_NXF_DEBUG is preferred
+fasta_gtf_filter - 2025-04-27 13:03:23,313 INFO: Extracted chromosome sequence names from sequence.fa
+fasta_gtf_filter - 2025-04-27 13:03:27,937 INFO: Extracted 2100250 matching sequences from null.gtf into sequence.filtered.gtf

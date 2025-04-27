@@ -34,6 +34,9 @@ class JCCSeq:
             smpl.append(parts.pop())
             exp.append(parts.pop(0))
             prj.append(parts.pop(0))
+            
+            # Exclude 'Feb2025' from tags
+            parts = [p for p in parts if p != "Feb2025"]
             tags.append(tuple(parts))
 
         df["Experiment"], df["Project"], df["Tags"], df["Sample"], df["Lane"], df["Read Mate"], df["Postfix"] = \

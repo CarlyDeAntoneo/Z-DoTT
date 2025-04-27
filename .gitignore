@@ -125,3 +125,11 @@ rerun/
 
 # IGV sessions
 igv
+
+
+
+setup/pre-mapping/results/CHM13v2/pre-mapping.bed.gz
+setup/pre-mapping/results/CHM13v2/pre-mapping.fa.gz
+setup/pre-mapping/results/GRCm39/pre-mapping.bed.gz
+setup/pre-mapping/results/GRCm39/pre-mapping.fa.gz
+utils/seqproj copy.py

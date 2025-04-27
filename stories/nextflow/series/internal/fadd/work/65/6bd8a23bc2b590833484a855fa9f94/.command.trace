@@ -1,0 +1,17 @@
+nextflow.trace/v2
+realtime=23000
+%cpu=995
+cpu_model=AMD EPYC 9534 64-Core Processor
+rchar=1115032868
+wchar=1045796464
+syscr=136295
+syscw=127677
+read_bytes=180374528
+write_bytes=1045803008
+%mem=3
+vmem=2672192
+rss=2668056
+peak_vmem=2672344
+peak_rss=2668320
+vol_ctxt=47
+inv_ctxt=715
