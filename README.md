@@ -107,7 +107,7 @@ nextflow run \
     -resume \
     -profile slurm,latency \
     -r 41e95d6a4a24d1f4fe4f2c50bb4d9a4744158c9b \
-    alnfedorov/rnaseq
+    CarlyDeAntoneo/rnaseq
 
 # Optionally, clean up the directory
 # rm -rf work .nextflow*
