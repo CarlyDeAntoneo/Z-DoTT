@@ -25,7 +25,7 @@ setup/env:
 	cd setup/env
 	for name in liftoff zdott;
 	do
-	  micromamba env create -y --name "$${name}" --file "$${name}.yaml"
+	  micromamba env create -y --channel-priority flexible --name "$${name}" --file "$${name}.yaml"
 	done
 	micromamba run -n zdott pip install -r zdott-requirements.txt
 	micromamba run -n zdott cargo install --locked --git https://github.com/alnfedorov/reat --rev c166a6c740739c6dbab7bdab971a912bea1031c5

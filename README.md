@@ -10,6 +10,7 @@ execution via `make <target>` from the repository's root directory.
 ### Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install) (tested with v1.84.0)
+- [CMake](https://cmake.org/) (tested with v3.31.6)
 - [Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) (tested with v2.0.2)
 - HPC cluster with the [Slurm](https://slurm.schedmd.com/quickstart.html) scheduler
 
